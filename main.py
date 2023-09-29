@@ -7,16 +7,8 @@ from telegram.ext import Application, ApplicationBuilder, MessageHandler, filter
 from urlextract import URLExtract
 import pathlib
 
-def write_file(path: str | pathlib.Path, data) -> pathlib.Path | None:
-    path = pathlib.Path(path)
-    try:
-        with open(path.resolve().as_posix(), "w+") as f:
-            f.write(data)
-    except (Exception,):
-        print('Err.', 'write_file: try: with open(cover.as_posix()')
-        return
+from utils import write_file
 
-    return path
 
 def getFirstYoutubeUrl(text):
     extractor = URLExtract()
@@ -37,7 +29,7 @@ def allDoings(text, date, id):
 
     print('🎥', url)
 
-    name = f'{date.strftime("%Y%m%d-%H%M%S")}-{id}.md'
+    name = f'posts/post-{date.strftime("%Y%m%d-%H%M%S")}-{id}.md'
 
     out = ''
     out += '\n'
