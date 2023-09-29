@@ -1,5 +1,5 @@
 name: Hopper Telegram
-run-name: ${{ github.actor }} Hopper Telegram 🚀
+run-name: Hopper Telegram (${{ github.actor }})🚀
 on:
   push:
     branches: [ "main" ]
@@ -13,7 +13,8 @@ jobs:
   Hopper-Telegram:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 Start!"
+      - name: 🎉 Greetings!
+        run: echo "🎉 Start!"
       - uses: actions/checkout@v3
       - name: Set up Python 3.10
         uses: actions/setup-python@v3
@@ -23,9 +24,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Lint with flake8
+      - name: Run:run.py
         run: |
-          python run.py
+          python3 run.py
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
