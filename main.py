@@ -61,7 +61,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 
-TOKEN = '6324951837:AAEKEPVTFipePVamz9rSwOO34vfHOzZw0CI'
+TOKEN = '6324951837:AAHafdXmBOA4c5PfNPTSfib4lkEiUlFna_o'
 
 if __name__ == '__main__':
     print('🏀', 'main.py')
