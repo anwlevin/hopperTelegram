@@ -1,12 +1,8 @@
 name: Hopper Telegram
 run-name: Hopper Telegram (${{ github.actor }})🚀
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  #schedule:
-  #  - cron: '*/5 * * * *'
+  schedule:
+    - cron: '*/10 * * * *'
 permissions:
   contents: write
 jobs:
