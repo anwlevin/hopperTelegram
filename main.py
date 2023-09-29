@@ -64,6 +64,8 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 TOKEN = '6324951837:AAEKEPVTFipePVamz9rSwOO34vfHOzZw0CI'
 
 if __name__ == '__main__':
+    print('🏀', 'main.py')
+
     application = ApplicationBuilder().token(TOKEN).build()
 
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
