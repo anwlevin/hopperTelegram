@@ -7,6 +7,8 @@ from telegram.ext import Application, ApplicationBuilder, MessageHandler, filter
 from urlextract import URLExtract
 import pathlib
 
+import message_saver
+from config import STORE
 from utils import write_file
 
 
@@ -45,18 +47,27 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     #pprint.pprint(update)
 
     if update.channel_post:
+        message_saver.MessageSaverTELCON2(update.channel_post, update.update_id)
         allDoings(update.channel_post.text, update.channel_post.date, update.channel_post.id)
 
     if update.message:
+        message_saver.MessageSaverTELCON2(update.message, update.update_id)
         allDoings(update.message.text, update.message.date, update.message.id)
 
 
+
+def init_store_dir(store_dir_name=STORE):
+    store = pathlib.Path(store_dir_name)
+    store.mkdir(parents=True, exist_ok=True)
+    return store
 
 
 TOKEN = '6324951837:AAHafdXmBOA4c5PfNPTSfib4lkEiUlFna_o'
 
 if __name__ == '__main__':
     print('🏀', 'main.py')
+
+    init_store_dir()
 
     application = ApplicationBuilder().token(TOKEN).build()
 
