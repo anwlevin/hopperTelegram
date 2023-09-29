@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import pathlib
 from os import getcwd
 from pathlib import Path

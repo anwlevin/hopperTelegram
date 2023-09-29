@@ -1,36 +1,55 @@
+#!/usr/bin/env python
 
 import pathlib
 
-from main import getFirstYoutubeUrl
+import telegram
+import yaml
+
+from config import STORE
+from message_saver import message_text_filter
 from utils import read_file, write_file
 
-ROOT = 'posts'
 
+def getIndexOnePost(message: telegram.Message):
+    text = ''
 
-
-def makeIndex():
-    print('🏄️', 'Make Index')
-    root = pathlib.Path(ROOT)
-    files = list(root.iterdir())
-    posts = list(filter(lambda file: file.name.startswith('post'), files))
-    text = '\n'
-    for post in posts:
-        print(post)
-        data = read_file(post)
-        url = getFirstYoutubeUrl(data)
-
-        text += f'### {post.relative_to(ROOT)}'
-        text += '\n'
-        text += '\n'
-        text += f'{url}'
-        text += '\n'
-        text += '\n'
-        text += '\n'
-        text += '\n'
+    text += f'### post-{message.message_id}'
+    text += '\n'
+    text += '\n'
+    text += f'{message.date.__str__()}'
+    text += '\n'
+    text += f'{message_text_filter(message.text_markdown_v2.__str__())}'
     text += '\n'
 
-    name = 'posts/index.md'
-    write_file(name, text)
+    return text
 
 
 
+def indexChat(chat):
+    print(chat)
+    text = '\n'
+    for post in sorted(chat.iterdir(), reverse=True):
+        if not post.name.startswith('post-'):
+            continue
+
+        yml = read_file(post)
+        message = yaml.load(yml, Loader=yaml.Loader)
+        text += getIndexOnePost(message)
+        text += '\n'
+        text += '\n'
+        text += '\n'
+
+    index = chat.joinpath('index.md')
+    write_file(index, text)
+
+
+def indexAllChats():
+    print('💎️', 'Make Index')
+    store = pathlib.Path(STORE)
+
+    for chat in store.iterdir():
+        indexChat(chat)
+
+
+if __name__ == '__main__':
+    indexAllChats()
