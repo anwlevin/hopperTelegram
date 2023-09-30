@@ -4,11 +4,21 @@ import pathlib
 
 import telegram
 import yaml
+from urlextract import URLExtract
 
 from config import STORE
 from message_saver import message_text_filter
 from utils import read_file, write_file
 
+
+def text_Preprocessing(text_html):
+    extractor = URLExtract()
+    urls = extractor.find_urls(text_html)
+    for url in urls:
+        url_replace = f'<a href="{url}">{url}</a>'
+        text_html.replace(url, url_replace)
+
+    return text_html
 
 def getIndexOnePost(message: telegram.Message, data: dict):
     text = ''
@@ -18,7 +28,7 @@ def getIndexOnePost(message: telegram.Message, data: dict):
     text += f'{message.date.__str__()}'
     text += '\n'
     text += '\n'
-    text += data.get('text_html')
+    text += text_Preprocessing(data.get('text_html'))
     text += '\n'
     text += '\n'
 
