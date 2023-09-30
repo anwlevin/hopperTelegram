@@ -10,8 +10,20 @@ from message_saver import message_text_filter
 from utils import read_file, write_file
 
 
-def getIndexOnePost(yaml: dict):
-    message = yaml['message']
+def getIndexOnePost(data: dict):
+
+    message = None
+    text_md = None
+    if hasattr(data, 'message'):
+        message = data.get('message')
+        text_md = data.get('markdown_text')
+    else:
+        message = data
+        text_md = message.get('text')
+
+    print()
+    print('TEXT', text_md)
+    print()
 
     text = ''
     text += f'### post-{message.message_id}'
@@ -19,7 +31,8 @@ def getIndexOnePost(yaml: dict):
     text += '\n'
     text += f'{message.date.__str__()}'
     text += '\n'
-    text += yaml['markdown_text']
+    text += '\n'
+    text += text_md
     text += '\n'
 
     return text
@@ -28,10 +41,10 @@ def getIndexOnePost(yaml: dict):
 def indexChat(chat):
     print(chat)
     text = '\n'
-    for post in sorted(chat.iterdir(), reverse=True):
-        if not post.name.startswith('post-'):
-            continue
 
+    files = chat.iterdir()
+    files = sorted(list(filter(lambda file: not file.name.startswith('index'), files)), reverse=True)
+    for post in files:
         yaml_text = read_file(post)
         yaml_data = yaml.load(yaml_text, Loader=yaml.Loader)
         text += getIndexOnePost(yaml_data)
@@ -47,7 +60,9 @@ def indexAllChats():
     print('💎️', 'Make Index')
     store = pathlib.Path(STORE)
 
-    for chat in store.iterdir():
+    files = store.iterdir()
+    files = sorted(list(filter(lambda file: not file.name.startswith('index'), files)), reverse=True)
+    for chat in files:
         indexChat(chat)
 
 

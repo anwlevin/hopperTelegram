@@ -88,11 +88,7 @@ def chat_id_sanitize(
 
 
 def message_text_filter(text: str = '') -> str:
-    """
 
-    :param text:
-    :return:
-    """
     text = text.replace("\\", "")
     text = f'\n{text}\n'
 
@@ -123,7 +119,9 @@ def MessageSaverTELCON2(message: Message, update_id: str):
     context = dict()
     context['message'] = message
 
-    context['markdown_text'] = message_text_filter(message.text_markdown_v2.__str__())
+    context['data'] = {
+        'markdown_text': message_text_filter(message.text_markdown_v2.__str__())
+    }
 
     text = yaml.dump(
         context,
@@ -133,45 +131,6 @@ def MessageSaverTELCON2(message: Message, update_id: str):
     )
 
     write_file(post, text)
-
-
-    return
-
-    context['post'] = text
-    context['date'] = update.channel_post.date.__str__()
-    context['chat_title'] = update.channel_post.chat.title.__str__()
-    context['chat_id'] = update.channel_post.chat.id.__str__()
-    context['message_id'] = update.channel_post.message_id.__str__()
-    context['chat_type'] = update.channel_post.chat.type.__str__()
-
-    if DEBUG_SAVE_RAW_DATA:
-        context['rawdata'] = update
-
-    dir_chat_name = get_dynamic_filename(
-        f'{chat_id_sanitize(update.channel_post.chat.id.__str__())}-',
-        f'{chat_title_clean(update.channel_post.chat.title.__str__()).__str__()}',
-        f'-chat',
-    )
-    full_dir_chat_name = '/'.join([getcwd(), WHERE_ALL_STORES, dir_chat_name])
-    Path(full_dir_chat_name).mkdir(parents=True, exist_ok=True)
-
-    file_name = get_dynamic_filename(
-        f'{update.channel_post.message_id}-',
-        f'{update.channel_post.text}',
-        f'.txt',
-    )
-
-    full_path = '/'.join([full_dir_chat_name, file_name])
-    print('full_path: ', full_path)
-
-    with open(full_path, 'w') as f:
-        yaml.dump(
-            context,
-            f,
-            default_flow_style=False,
-            sort_keys=False,
-            allow_unicode=True,
-        )
 
 
 
