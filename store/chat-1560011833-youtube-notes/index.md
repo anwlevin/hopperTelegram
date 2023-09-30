@@ -1,4 +1,22 @@
 
+### post-75
+
+2023-09-30 17:34:53+00:00
+
+https://youtu.be/CpV_kyGwabI?si=qaBRjQPmYsnKK2kT
+
+
+
+
+### post-74
+
+2023-09-30 17:34:39+00:00
+
+https://youtu.be/P-SUhs62MJU?si=TYE3Z5mbyPsaXUye
+
+
+
+
 ### post-73
 
 2023-09-30 00:04:35+00:00
