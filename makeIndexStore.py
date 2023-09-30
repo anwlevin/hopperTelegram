@@ -18,7 +18,7 @@ def indexDir(current_dir):
 
     for file in files:
         print(file)
-        text += f' - ## [{file.relative_to(current_dir)}]({file.as_posix()}/)'
+        text += f' - ## [{file.relative_to(current_dir)}]({file.relative_to(current_dir).as_posix()}/)'
         text += '\n'
         text += '\n'
 
