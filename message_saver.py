@@ -120,7 +120,8 @@ def MessageSaverTELCON2(message: Message, update_id: str):
     context['message'] = message
 
     context['data'] = {
-        'markdown_text': message_text_filter(message.text_markdown_v2.__str__())
+        'text_markdown': message.text_markdown_v2_urled,
+        'text_html': message.text_html
     }
 
     text = yaml.dump(

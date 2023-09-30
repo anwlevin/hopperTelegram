@@ -10,21 +10,7 @@ from message_saver import message_text_filter
 from utils import read_file, write_file
 
 
-def getIndexOnePost(data: dict):
-
-    message = None
-    text_md = None
-    if hasattr(data, 'message'):
-        message = data.get('message')
-        text_md = data.get('markdown_text')
-    else:
-        message = data
-        text_md = message.get('text')
-
-    print()
-    print('TEXT', text_md)
-    print()
-
+def getIndexOnePost(message: telegram.Message, data: dict):
     text = ''
     text += f'### post-{message.message_id}'
     text += '\n'
@@ -32,7 +18,8 @@ def getIndexOnePost(data: dict):
     text += f'{message.date.__str__()}'
     text += '\n'
     text += '\n'
-    text += text_md
+    text += data.get('text_html')
+    text += '\n'
     text += '\n'
 
     return text
@@ -45,9 +32,12 @@ def indexChat(chat):
     files = chat.iterdir()
     files = sorted(list(filter(lambda file: not file.name.startswith('index'), files)), reverse=True)
     for post in files:
-        yaml_text = read_file(post)
-        yaml_data = yaml.load(yaml_text, Loader=yaml.Loader)
-        text += getIndexOnePost(yaml_data)
+        text_post = read_file(post)
+        yaml_post = yaml.load(text_post, Loader=yaml.Loader)
+
+        message_post = yaml_post.get('message')
+        data_post = yaml_post.get('data')
+        text += getIndexOnePost(message_post, data_post)
         text += '\n'
         text += '\n'
         text += '\n'
