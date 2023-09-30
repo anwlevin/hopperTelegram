@@ -10,19 +10,19 @@ from message_saver import message_text_filter
 from utils import read_file, write_file
 
 
-def getIndexOnePost(message: telegram.Message):
-    text = ''
+def getIndexOnePost(yaml: dict):
+    message = yaml['message']
 
+    text = ''
     text += f'### post-{message.message_id}'
     text += '\n'
     text += '\n'
     text += f'{message.date.__str__()}'
     text += '\n'
-    text += f'{message_text_filter(message.text_markdown_v2.__str__())}'
+    text += yaml['markdown_text']
     text += '\n'
 
     return text
-
 
 
 def indexChat(chat):
@@ -32,9 +32,9 @@ def indexChat(chat):
         if not post.name.startswith('post-'):
             continue
 
-        yml = read_file(post)
-        message = yaml.load(yml, Loader=yaml.Loader)
-        text += getIndexOnePost(message)
+        yaml = read_file(post)
+        data_yaml = yaml.load(yaml, Loader=yaml.Loader)
+        text += getIndexOnePost(data_yaml)
         text += '\n'
         text += '\n'
         text += '\n'

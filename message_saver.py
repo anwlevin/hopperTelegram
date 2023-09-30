@@ -16,7 +16,7 @@ DEBUG = True
 DEBUG_SAVE_RAW_DATA = True
 
 
-def chat_title_clean(title: str='', pattern: str='U(u*)-u'):
+def chat_title_clean(title: str = '', pattern: str = 'U(u*)-u'):
     """
     Return all parts of remain after cutting Uuuuuu-uu
     (1)(Uuuuu-u)(2)
@@ -71,6 +71,7 @@ def get_dynamic_filename(
 def chat_id_sanitize(
         chat_id_original: str,
         prefix_chat_id_to_remove: str = '-100') -> str:
+
     """
 
     :param chat_id_original:
@@ -117,11 +118,15 @@ def MessageSaverTELCON2(message: Message, update_id: str):
     chat = store.joinpath(chat_dirname)
     chat.mkdir(parents=True, exist_ok=True)
 
-    post_name = f'post-{message.message_id}.yml'
-    post = chat.joinpath(post_name)
+    post = chat.joinpath(f'post-{message.message_id}.yml')
+
+    context = dict()
+    context['message'] = message
+
+    context['markdown_text'] = message_text_filter(message.text_markdown_v2.__str__())
 
     text = yaml.dump(
-        message,
+        context,
         default_flow_style=False,
         sort_keys=False,
         allow_unicode=True,
@@ -131,10 +136,6 @@ def MessageSaverTELCON2(message: Message, update_id: str):
 
 
     return
-
-    text = message_text_filter(update.channel_post.text_markdown_v2.__str__())
-
-
 
     context['post'] = text
     context['date'] = update.channel_post.date.__str__()
