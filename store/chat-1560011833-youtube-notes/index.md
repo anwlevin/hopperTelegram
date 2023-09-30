@@ -4,12 +4,19 @@
 2023-09-30 19:08:52+00:00
 
 Diffrent texts: 
-<b>bold </b>text
-<i>italic</i> text
+
+**bold** text
+
+*italic* text
+
 Monospace text
-<u>Underline</u> text
-<s>Strike</s> text
-Link https://core.telegram.org/api/entities 
+
+Underline text
+
+~~Strike~~ text
+
+Link <https://core.telegram.org/api/entities> 
+
 end
 
 
@@ -19,7 +26,7 @@ end
 
 2023-09-30 19:09:16+00:00
 
-https://youtu.be/CpV_kyGwabI?si=qaBRjQPmYsnKK2kT
+<https://youtu.be/CpV_kyGwabI?si=qaBRjQPmYsnKK2kT>
 
 
 
@@ -29,12 +36,19 @@ https://youtu.be/CpV_kyGwabI?si=qaBRjQPmYsnKK2kT
 2023-09-30 19:08:56+00:00
 
 Diffrent texts: 
-<b>bold </b>text
-<i>italic</i> text
+
+**bold** text
+
+*italic* text
+
 Monospace text
-<u>Underline</u> text
-<s>Strike</s> text
-Link https://core.telegram.org/api/entities 
+
+Underline text
+
+~~Strike~~ text
+
+Link <https://core.telegram.org/api/entities> 
+
 end
 
 

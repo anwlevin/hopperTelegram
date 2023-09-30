@@ -9,14 +9,26 @@ from urlextract import URLExtract
 from config import STORE
 from message_saver import message_text_filter
 from utils import read_file, write_file
-
+from markdownify import markdownify as md
 
 def text_Preprocessing(text_html):
-    extractor = URLExtract()
-    urls = extractor.find_urls(text_html)
-    for url in urls:
-        url_replace = f'<a href="{url}">{url}</a>'
-        text_html.replace(url, url_replace)
+    #print('🦜', 'Preprocessing text: ')
+    #print(text_html)
+    #print('==============')
+
+
+    for url in URLExtract().find_urls(text_html):
+        text_html = text_html.replace(url, f'<a href="{url}">{url}</a>')
+
+    text_html = md(text_html)
+    text_html = text_html.replace('\n', '\n\n')
+
+    #print('🦜🦜')
+    #print(text_html)
+    #print('==============')
+    #print()
+    #print()
+
 
     return text_html
 
