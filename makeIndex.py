@@ -32,9 +32,9 @@ def indexChat(chat):
         if not post.name.startswith('post-'):
             continue
 
-        yaml = read_file(post)
-        data_yaml = yaml.load(yaml, Loader=yaml.Loader)
-        text += getIndexOnePost(data_yaml)
+        yaml_text = read_file(post)
+        yaml_data = yaml.load(yaml_text, Loader=yaml.Loader)
+        text += getIndexOnePost(yaml_data)
         text += '\n'
         text += '\n'
         text += '\n'
