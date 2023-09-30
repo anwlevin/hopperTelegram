@@ -4,5 +4,5 @@
 
 
 ## Index of /
- - ### [Store of chats](/store/)
+ - ### [Store of chats](store/)
 
