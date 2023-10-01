@@ -23,37 +23,15 @@ def getFirstYoutubeUrl(text):
 
     return None
 
-def allDoings(text, date, id):
-
-    url = getFirstYoutubeUrl(text)
-    if not url:
-        return
-
-    print('🎥', url)
-
-    name = f'posts/post-{date.strftime("%Y%m%d-%H%M%S")}-{id}.md'
-
-    out = ''
-    out += '\n'
-    out += f'{url}'
-    out += '\n'
-
-    write_file(name, out)
-
-
 
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    print('🍎', 'Update')
-    #pprint.pprint(update)
+    print('🍎', 'Update ')
 
     if update.channel_post:
-        message_saver.MessageSaverTELCON2(update.channel_post, update.update_id)
-        allDoings(update.channel_post.text, update.channel_post.date, update.channel_post.id)
+        await message_saver.MessageSaverTELCON2(update.channel_post, update.update_id)
 
     if update.message:
-        message_saver.MessageSaverTELCON2(update.message, update.update_id)
-        allDoings(update.message.text, update.message.date, update.message.id)
-
+        await message_saver.MessageSaverTELCON2(update.message, update.update_id)
 
 
 def init_store_dir(store_dir_name=STORE):
@@ -71,6 +49,6 @@ if __name__ == '__main__':
 
     application = ApplicationBuilder().token(TOKEN).build()
 
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
+    application.add_handler(MessageHandler(filters.ALL & ~filters.COMMAND, echo))
 
     application.run_polling(allowed_updates=Update.ALL_TYPES)

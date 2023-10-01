@@ -7,6 +7,7 @@ import re
 import yaml
 from slugify import slugify
 from telegram import Message
+from telegram.ext import ContextTypes
 
 from config import STORE
 from utils import write_file
@@ -95,9 +96,10 @@ def message_text_filter(text: str = '') -> str:
     return text
 
 
-def MessageSaverTELCON2(message: Message, update_id: str):
-    print('\n\n', 'Message: ', message)
-    print('🍎', message.chat.id)
+async def MessageSaverTELCON2(message: Message, update_id: str):
+    print('🍎 update_id: ', update_id)
+    print('🍎', yaml.dump(message, default_flow_style=False))
+
     chat_id = chat_id_sanitize(message.chat.id.__str__())
     chat_title = chat_title_clean(message.chat.title)
 
@@ -114,15 +116,48 @@ def MessageSaverTELCON2(message: Message, update_id: str):
     chat = store.joinpath(chat_dirname)
     chat.mkdir(parents=True, exist_ok=True)
 
-    post = chat.joinpath(f'post-{message.message_id}.yml')
+    post_uniq_name = f'post-{message.message_id}'
+    post = chat.joinpath(f'{post_uniq_name}.yml')
 
     context = dict()
     context['message'] = message
 
     context['data'] = {
-        'text_markdown': message.text_markdown_v2_urled,
-        'text_html': message.text_html
+        'text_markdown': '',
+        'text_html': '',
+        'photo': ''
     }
+
+    if message.text:
+        context['data']['text_markdown'] = message.text_markdown_v2_urled,
+        context['data']['text_html'] = message.text_html
+
+    if message.photo:
+        print('🖼 message.photo: ')
+        print('🍐 Download:')
+
+        photo_file = await message.photo[-1].get_file()
+        ext = 'jpg'
+        if photo_file.file_path:
+            if exts := photo_file.file_path.split('.'):
+                if ext_last := exts[-1]:
+                    ext = ext_last
+        photo = chat.joinpath(f'{post_uniq_name}-photo.{ext}')
+
+        await photo_file.download_to_drive(photo.as_posix())
+
+        context['data']['photo'] = photo.name
+
+        caption = ''
+        message.caption
+        if hasattr(message, 'caption'):
+            caption = message.caption_html
+
+        text_html = f'<p><img src="{photo.name}">{caption}</p>'
+        context['data']['text_html'] = text_html
+
+
+
 
     text = yaml.dump(
         context,

@@ -15,14 +15,15 @@ from utils import read_file, write_file
 from markdownify import markdownify as md
 
 def text_Preprocessing(text_html):
-    #print('🦜', 'Preprocessing text: ')
-    #print(text_html)
-    #print('==============')
+    text_html = str(text_html)
+    print('🦜', 'Preprocessing text: ')
+    print(text_html)
+    print('==============')
 
-    for url in URLExtract().find_urls(text_html):
-        text_html = text_html.replace(url, f'<a href="{url}">{url}</a>')
+    if urls := URLExtract().find_urls(text_html):
+        for url in urls:
+            text_html = text_html.replace(url, f'<a href="{url}">{url}</a>')
 
-    #text_html = md(text_html)
     text_html = text_html.replace('\n', '<br>\n')
 
     return text_html
@@ -93,26 +94,29 @@ def renderPostCard(message: telegram.Message, data: dict):
     #print()
 
     content = ''
-    if hasattr(message, 'forward_date'):
+    if hasattr(message, 'forward_date') and message.forward_date:
         content = renderForwardPostContent(message, data)
     else:
-        content = text_Preprocessing(data.get('text_html'))
+        content = text_Preprocessing(str(data.get('text_html')))
 
     template = Environment(loader=FileSystemLoader("templates")).get_template("post.html")
     return template.render(
         {'title': f'Post {message.message_id}',
          'date': message.date.__str__(),
          'content': content,
+         'photo': data.get('photo')
          })
 
 
 def indexChat(chat):
+    print(chat)
     files = chat.iterdir()
-    posts = sorted(list(filter(lambda file: not file.name.startswith('index'), files)), reverse=True)
+    posts = sorted(list(filter(lambda file: not file.name.startswith('index') and file.name.endswith('.yml'), files)), reverse=True)
 
     content = ''
     content += '<div class="col-md-8 mx-auto">'
     for post in posts:
+        print(post)
         text_post = read_file(post)
         yaml_post = yaml.load(text_post, Loader=yaml.Loader)
 
