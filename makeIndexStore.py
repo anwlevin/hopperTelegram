@@ -1,32 +1,34 @@
 #!/usr/bin/env python
 
 import pathlib
-from config import STORE
-from utils import read_file, write_file
 
+from jinja2 import Environment, FileSystemLoader, Template
+
+from config import STORE
+from utils import write_file
 
 
 def indexDir(current_dir):
     print('💎️', 'Make index Dir')
+
     files = current_dir.iterdir()
     files = list(filter(lambda file: not file.name.startswith('index'), files))
 
-    text = '\n'
-    text += f'# Index of {current_dir}'
-    text += '\n'
-    text += '\n'
+    title = f'Index of {current_dir}'
 
+    content = ''
+    content += '<ul>'
     for file in files:
-        print(file)
-        text += f' - ## [{file.relative_to(current_dir)}]({file.relative_to(current_dir).as_posix()}/)'
-        text += '\n'
-        text += '\n'
+        a_content = Template('<h3><a href="{{ href }}">{{ content }}</a></h3>').render({
+            'href': file.relative_to(current_dir).as_posix(),
+            'content': file.relative_to(current_dir)
+        })
+        content += Template('<li>{{ content }}</li>')\
+            .render({'content': a_content})
+    content += '</ul>'
 
-    text += '\n'
-    text += '\n'
-
-    index = current_dir.joinpath('index.md')
-    write_file(index, text)
+    template = Environment(loader=FileSystemLoader("templates")).get_template("base.html")
+    write_file(current_dir.joinpath('index.html'), template.render({'title': title, 'content': content}))
 
 
 if __name__ == '__main__':
