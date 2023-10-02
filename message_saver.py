@@ -9,8 +9,9 @@ from slugify import slugify
 from telegram import Message
 from telegram.ext import ContextTypes
 
-from config import STORE
-from utils import write_file
+import config
+from config import CHATS_STORE
+from utils import write_file, read_file
 
 WHERE_ALL_STORES = 'storeTelegramChats'
 DEBUG = True
@@ -100,28 +101,51 @@ async def MessageSaverTELCON2(message: Message, update_id: str):
     print('🍎 update_id: ', update_id)
     print('🍎', yaml.dump(message, default_flow_style=False))
 
+    store = pathlib.Path(CHATS_STORE)
+
     chat_id = chat_id_sanitize(message.chat.id.__str__())
-    chat_title = chat_title_clean(message.chat.title)
 
-    #chat_dirname = get_dynamic_filename(
-    #    f'chat-{chat_id}-',
-    #    f'{chat_title}',
-    #    f'',
-    #)
+    chat_unique_name = config.CHAT_DIRNAME_TEMPLATE.substitute(chat_id=chat_id)
+    chat = store.joinpath(chat_unique_name)
+    if not chat.exists():
+        chat.mkdir(parents=True, exist_ok=True)
 
-    chat_dirname = f'chat-{chat_id}-{chat_title}'
+    chat_about = chat.joinpath('about.yml')
+    if chat_about.exists():
+        chat_about_text = read_file(chat_about)
+        chat_about_data = yaml.load(chat_about_text, Loader=yaml.Loader)
+        if title := chat_about_data.get('title'):
+            if title != message.chat.title:
+                chat_about_data = {
+                    'title': message.chat.title,
+                    'id': chat_id
+                }
+                chat_about_text = yaml.dump(
+                    chat_about_data,
+                    default_flow_style=False,
+                    sort_keys=False,
+                    allow_unicode=True,
+                )
+                write_file(chat_about, chat_about_text)
+    else:
+        chat_about_data = {
+            'title': message.chat.title,
+            'id': chat_id
+        }
+        chat_about_text = yaml.dump(
+            chat_about_data,
+            default_flow_style=False,
+            sort_keys=False,
+            allow_unicode=True,
+        )
+        write_file(chat_about, chat_about_text)
 
-    store = pathlib.Path(STORE)
-
-    chat = store.joinpath(chat_dirname)
-    chat.mkdir(parents=True, exist_ok=True)
-
-    post_uniq_name = f'post-{message.message_id}'
-    post = chat.joinpath(f'{post_uniq_name}.yml')
+    post_unique_name = config.POST_FILENAME_TEMPLATE.substitute(post_id=message.message_id)
+    post = chat.joinpath(post_unique_name)
 
     context = dict()
-    context['message'] = message
 
+    context['message'] = message
     context['data'] = {
         'text_markdown': '',
         'text_html': '',
@@ -133,31 +157,27 @@ async def MessageSaverTELCON2(message: Message, update_id: str):
         context['data']['text_html'] = message.text_html
 
     if message.photo:
-        print('🖼 message.photo: ')
-        print('🍐 Download:')
-
         photo_file = await message.photo[-1].get_file()
         ext = 'jpg'
         if photo_file.file_path:
             if exts := photo_file.file_path.split('.'):
                 if ext_last := exts[-1]:
                     ext = ext_last
-        photo = chat.joinpath(f'{post_uniq_name}-photo.{ext}')
+
+        photo_unique_name = config.PHOTO_POST_FILENAME_TEMPLATE.substitute(
+            post_id = message.message_id,
+            ext = ext
+        )
+        photo = chat.joinpath(photo_unique_name)
 
         await photo_file.download_to_drive(photo.as_posix())
 
         context['data']['photo'] = photo.name
 
-        caption = ''
-        message.caption
+        text_html = photo.name
         if hasattr(message, 'caption'):
-            caption = message.caption_html
-
-        text_html = f'<p><img src="{photo.name}">{caption}</p>'
+            text_html = message.caption_html
         context['data']['text_html'] = text_html
-
-
-
 
     text = yaml.dump(
         context,

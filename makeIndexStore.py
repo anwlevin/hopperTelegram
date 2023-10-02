@@ -4,7 +4,7 @@ import pathlib
 
 from jinja2 import Environment, FileSystemLoader, Template
 
-from config import STORE
+from config import CHATS_STORE
 from utils import write_file
 
 
@@ -32,5 +32,5 @@ def indexDir(current_dir):
 
 
 if __name__ == '__main__':
-    store = pathlib.Path(STORE)
+    store = pathlib.Path(CHATS_STORE)
     indexDir(store)

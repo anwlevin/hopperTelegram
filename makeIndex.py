@@ -9,16 +9,14 @@ import yaml
 from jinja2 import Environment, FileSystemLoader
 from urlextract import URLExtract
 
-from config import STORE
-from message_saver import message_text_filter
+import config
 from utils import read_file, write_file
-from markdownify import markdownify as md
 
 def text_Preprocessing(text_html):
     text_html = str(text_html)
-    print('🦜', 'Preprocessing text: ')
-    print(text_html)
-    print('==============')
+    #print('🦜', 'Preprocessing text: ')
+    #print(text_html)
+    #print('==============')
 
     if urls := URLExtract().find_urls(text_html):
         for url in urls:
@@ -85,61 +83,65 @@ def renderForwardPostContent(message: telegram.Message, data: dict):
          'content': content,
          })
 
-def renderPostCard(message: telegram.Message, data: dict):
-    #print('🖼 ', message.message_id)
-    #print(yaml.dump(message, default_flow_style=False))
-    #print('========')
-    #print()
-    #print()
-    #print()
 
-    content = ''
-    if hasattr(message, 'forward_date') and message.forward_date:
-        content = renderForwardPostContent(message, data)
-    else:
-        content = text_Preprocessing(str(data.get('text_html')))
+def makeIndexOneChat(chat):
+    print('🧿 makeIndexOneChat(): ', chat.name)
 
-    template = Environment(loader=FileSystemLoader("templates")).get_template("post.html")
-    return template.render(
-        {'title': f'Post {message.message_id}',
-         'date': message.date.__str__(),
-         'content': content,
-         'photo': data.get('photo')
-         })
+    chat_about = chat.joinpath('about.yml')
+    chat_about_text = read_file(chat_about)
+    chat_about_yml = yaml.load(chat_about_text, Loader=yaml.Loader)
+    chat_title = chat_about_yml.get('title')
+    chat_id = chat_about_yml.get('id')
+    index_title = f'{chat_title} (chat: {chat_id})'
 
+    posts = sorted(list(filter(lambda file: file.name.startswith('post-') and file.name.endswith('.yml'), chat.iterdir())), reverse=True)
 
-def indexChat(chat):
-    print(chat)
-    files = chat.iterdir()
-    posts = sorted(list(filter(lambda file: not file.name.startswith('index') and file.name.endswith('.yml'), files)), reverse=True)
-
-    content = ''
-    content += '<div class="col-md-8 mx-auto">'
+    posts_context = []
     for post in posts:
-        print(post)
+        print('📮 Post: ', post.name)
+
         text_post = read_file(post)
         yaml_post = yaml.load(text_post, Loader=yaml.Loader)
 
         message_post = yaml_post.get('message')
         data_post = yaml_post.get('data')
 
-        content += renderPostCard(message_post, data_post)
-    content += '</div>'
+        post_context = dict()
 
-    title = chat.__str__()
-    template = Environment(loader=FileSystemLoader("templates")).get_template("base.html")
-    write_file(chat.joinpath('index.html'), template.render({'title': title, 'content': content}))
+        post_context['title'] = f'Post {message_post.message_id}'
+        post_context['date'] = message_post.date.__str__()
+
+        text_html = data_post.get('text_html')
+        if text_html == None:
+            text_html = ''
+
+        if hasattr(message_post, 'forward_date') and message_post.forward_date:
+            post_context['text'] = renderForwardPostContent(message_post, data_post)
+        else:
+            post_context['text'] = text_Preprocessing(text_html)
+
+        if data_post.get('photo'):
+            post_context['photo'] = data_post.get('photo')
+
+        posts_context.append(post_context)
+
+    template = Environment(loader=FileSystemLoader("templates")).get_template("chat-index.html")
+    write_file(chat.joinpath('index.html'), template.render({
+        'title': index_title,
+        'posts': posts_context}))
 
 
-def indexAllChats():
-    print('💎️', 'Make Index')
-    store = pathlib.Path(STORE)
+def makeIndexAllChats():
+    print('💎️ makeIndexAllChats(): ')
 
-    files = store.iterdir()
-    files = sorted(list(filter(lambda file: not file.name.startswith('index'), files)), reverse=True)
-    for chat in files:
-        indexChat(chat)
+    if not config.CHATS_STORE.exists():
+        print('🚫 not config.CHATS_STORE.exists()')
+        return
+
+    chat_dirs = sorted(list(filter(lambda file: file.is_dir() and file.name.startswith('chat-'), config.CHATS_STORE.iterdir())), reverse=True)
+    for chat in chat_dirs:
+        makeIndexOneChat(chat)
 
 
 if __name__ == '__main__':
-    indexAllChats()
+    makeIndexAllChats()

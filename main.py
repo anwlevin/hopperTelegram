@@ -8,7 +8,7 @@ from urlextract import URLExtract
 import pathlib
 
 import message_saver
-from config import STORE
+from config import CHATS_STORE
 from utils import write_file
 
 
@@ -34,7 +34,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await message_saver.MessageSaverTELCON2(update.message, update.update_id)
 
 
-def init_store_dir(store_dir_name=STORE):
+def init_store_dir(store_dir_name=CHATS_STORE):
     store = pathlib.Path(store_dir_name)
     store.mkdir(parents=True, exist_ok=True)
     return store
