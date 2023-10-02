@@ -93,6 +93,7 @@ def makeIndexOneChat(chat):
     chat_about_text = read_file(chat_about)
     chat_about_yml = yaml.load(chat_about_text, Loader=yaml.Loader)
     chat_title = chat_about_yml.get('title')
+    chat_title_small = chat_about_yml.get('title_small')
     chat_id = chat_about_yml.get('id')
     index_title = f'{chat_title} (chat: {chat_id})'
 
@@ -133,7 +134,7 @@ def makeIndexOneChat(chat):
         'posts': posts_context,
         'chat': {
             'title': chat_title,
-            'title_small': chat_title,
+            'title_small': chat_title_small,
             'id': chat_id
         }
     }))
@@ -162,12 +163,13 @@ def makeIndexAllChats():
         chat_about_text = read_file(chat_about)
         chat_about_yml = yaml.load(chat_about_text, Loader=yaml.Loader)
         chat_title = chat_about_yml.get('title')
+        chat_title_small = chat_about_yml.get('title_small')
         chat_id = chat_about_yml.get('id')
 
         chats_context.append({
             'href': chat.name,
             'title': chat_title,
-            'title_small': chat_title,
+            'title_small': chat_title_small,
             'id': chat_id,
         })
 
