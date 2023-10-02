@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <ul>
+        {% for chat in chats %}
+            <li>
+                <h3>
+                    <a href="{{ chat.href }}">
+                        {{ chat.title }}
+                    </a>
+                </h3>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

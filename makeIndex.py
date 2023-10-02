@@ -142,6 +142,26 @@ def makeIndexAllChats():
     for chat in chat_dirs:
         makeIndexOneChat(chat)
 
+    print()
+    print('💎️ make All Index (): ')
+    chats_context = []
+    for chat in chat_dirs:
+        chat_about = chat.joinpath('about.yml')
+        chat_about_text = read_file(chat_about)
+        chat_about_yml = yaml.load(chat_about_text, Loader=yaml.Loader)
+        chat_title = chat_about_yml.get('title')
+        chat_id = chat_about_yml.get('id')
+
+        chats_context.append({
+            'href': chat.name,
+            'title': f'{chat_title} (chat {chat_id})'
+        })
+
+    template = Environment(loader=FileSystemLoader("templates")).get_template("all-chat-index.html")
+    write_file(config.CHATS_STORE.joinpath('index.html'), template.render({
+        'title': f'Index of Store',
+        'chats': chats_context}))
+
 
 if __name__ == '__main__':
     makeIndexAllChats()
