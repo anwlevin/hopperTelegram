@@ -128,14 +128,9 @@ def makeIndexOneChat(chat):
         'title': index_title,
         'posts': posts_context}))
 
-    posts_index_txt=''
-
-    for post in posts:
-        posts_index_txt += f'{post.relative_to(chat)}\n'
-
-    posts_index_txt2 = '\n'.join(reversed([post.relative_to(chat).as_posix() for post in posts]))
-
-    write_file(chat.joinpath('index.txt'), posts_index_txt2)
+    print('🚢️ Make: chat/index.txt ')
+    posts_index_txt = '\n'.join(reversed([post.relative_to(chat).as_posix() for post in posts]))
+    write_file(chat.joinpath('index.txt'), posts_index_txt)
 
 def makeIndexAllChats():
     print('💎️ makeIndexAllChats(): ')
