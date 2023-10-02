@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 
+{% block topbar %}
+    <div class="d-flex flex-row">
+        <div class="col">
+            <h3>{{ chat.title }}</h3>
+            <p class="text-body-secondary fw-normal mb-0">{{ chat.id }}</p>
+        </div>
+    </div>
+{% endblock %}
 
 {% block content %}
     <div class="col-md-8 mx-auto">

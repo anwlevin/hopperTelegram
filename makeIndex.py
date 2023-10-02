@@ -123,10 +123,16 @@ def makeIndexOneChat(chat):
 
         posts_context.append(post_context)
 
-    template = Environment(loader=FileSystemLoader("templates")).get_template("chat-index.html")
+    template = Environment(loader=FileSystemLoader("templates")).get_template("index-chat-posts.html")
     write_file(chat.joinpath('index.html'), template.render({
-        'title': index_title,
-        'posts': posts_context}))
+        'title': f'{chat_title} | Index',
+        'posts': posts_context,
+        'chat': {
+            'title': chat_title,
+            'title_small': chat_title,
+            'id': chat_id
+        }
+    }))
 
     print('🚢️ Make: chat/index.txt ')
     posts_index_txt = '\n'.join(reversed([post.relative_to(chat).as_posix() for post in posts]))
@@ -155,12 +161,14 @@ def makeIndexAllChats():
 
         chats_context.append({
             'href': chat.name,
-            'title': f'{chat_title} (chat {chat_id})'
+            'title': chat_title,
+            'title_small': chat_title,
+            'id': chat_id,
         })
 
-    template = Environment(loader=FileSystemLoader("templates")).get_template("all-chat-index.html")
+    template = Environment(loader=FileSystemLoader("templates")).get_template("index-store-chats.html")
     write_file(config.CHATS_STORE.joinpath('index.html'), template.render({
-        'title': f'Index of Store',
+        'title': f'Index of the Store',
         'chats': chats_context}))
 
     print('🏰 Make: store/index.txt ')
