@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import re
 from string import Template
 
 import telegram
@@ -23,6 +24,9 @@ def text_Preprocessing(text_html):
     text_html = text_html.replace('\n', '<br>\n')
 
     return text_html
+
+
+
 
 
 def renderForwardPostContent(message: telegram.Message, data: dict):
@@ -137,6 +141,7 @@ def makeIndexOneChat(chat):
     print('🚢️ Make: chat/index.txt ')
     posts_index_txt = '\n'.join(reversed([post.relative_to(chat).as_posix() for post in posts]))
     write_file(chat.joinpath('index.txt'), posts_index_txt)
+
 
 def makeIndexAllChats():
     print('💎️ makeIndexAllChats(): ')

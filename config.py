@@ -10,5 +10,17 @@ POST_FILENAME_TEMPLATE = Template('post-${post_id}.yml')
 
 PHOTO_POST_FILENAME_TEMPLATE = Template('post-${post_id}-photo.${ext}')
 
+CHAT_SMALL_TITLE_PATTENS = '''
+.*( - Uuuu.*)
+.*(- Uuuu.*)
+.*(-Uuuu.*)
+.*(Uuuu.*)
+.*( - U-uuu.*)
+.*(- U-uuu.*)
+.*(-U-uuu.*)
+.*(U-uuu.*)
+'''
+
+
 
 

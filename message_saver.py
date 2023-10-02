@@ -18,6 +18,20 @@ DEBUG = True
 DEBUG_SAVE_RAW_DATA = True
 
 
+def cleanTitleWithPattern(text, pattern):
+    if match := re.match(pattern, text):
+        to_replace = match.group(1)
+        return text.replace(to_replace, '')
+
+    return text
+
+
+def cleanTitleAllPatterns(text, patterns):
+    for pattern in patterns:
+        text = cleanTitleWithPattern(text, pattern)
+    return text
+
+
 def chat_title_clean(title: str = '', pattern: str = 'U(u*)-u'):
     """
     Return all parts of remain after cutting Uuuuuu-uu
@@ -114,10 +128,13 @@ async def MessageSaverTELCON2(message: Message, update_id: str):
     if chat_about.exists():
         chat_about_text = read_file(chat_about)
         chat_about_data = yaml.load(chat_about_text, Loader=yaml.Loader)
+
         if title := chat_about_data.get('title'):
             if title != message.chat.title:
+                title_small = cleanTitleAllPatterns(message.chat.title, config.CHAT_SMALL_TITLE_PATTENS.strip().split('\n'))
                 chat_about_data = {
                     'title': message.chat.title,
+                    'title_small': title_small,
                     'id': chat_id
                 }
                 chat_about_text = yaml.dump(
@@ -128,8 +145,10 @@ async def MessageSaverTELCON2(message: Message, update_id: str):
                 )
                 write_file(chat_about, chat_about_text)
     else:
+        title_small = cleanTitleAllPatterns(message.chat.title, config.CHAT_SMALL_TITLE_PATTENS.strip().split('\n'))
         chat_about_data = {
             'title': message.chat.title,
+            'title_small': title_small,
             'id': chat_id
         }
         chat_about_text = yaml.dump(
