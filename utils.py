@@ -22,3 +22,15 @@ def write_file(path: str | pathlib.Path, data) -> pathlib.Path | None:
         return
 
     return path
+
+
+def getFirstYoutubeUrl(text):
+    extractor = URLExtract()
+    urls = extractor.find_urls(text)
+    for url in urls:
+        if 'youtube.com' in url:
+            return url
+        if 'youtu.be' in url:
+            return url
+
+    return None

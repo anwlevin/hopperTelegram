@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-import json
-import pathlib
-import pprint
 from string import Template
 
 import telegram
@@ -11,6 +8,7 @@ from urlextract import URLExtract
 
 import config
 from utils import read_file, write_file
+
 
 def text_Preprocessing(text_html):
     text_html = str(text_html)
