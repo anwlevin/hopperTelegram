@@ -163,6 +163,10 @@ def makeIndexAllChats():
         'title': f'Index of Store',
         'chats': chats_context}))
 
+    print('🏰 Make: store/index.txt ')
+    chats_index_txt = '\n'.join(reversed([chat.relative_to(config.CHATS_STORE).as_posix() for chat in chat_dirs]))
+    write_file(config.CHATS_STORE.joinpath('index.txt'), chats_index_txt)
+
 
 if __name__ == '__main__':
     makeIndexAllChats()
