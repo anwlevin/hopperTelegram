@@ -130,7 +130,7 @@ def makeIndexOneChat(chat):
 
     template = Environment(loader=FileSystemLoader("templates")).get_template("index-chat-posts.html")
     write_file(chat.joinpath('index.html'), template.render({
-        'title': f'{chat_title} | Index',
+        'title': f'{chat_title_small} | Index',
         'posts': posts_context,
         'chat': {
             'title': chat_title,
