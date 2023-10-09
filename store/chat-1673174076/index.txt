@@ -82,3 +82,6 @@ post-2821.yml
 post-2822.yml
 post-2823.yml
 post-2824.yml
+post-2825.yml
+post-2826.yml
+post-2827.yml
