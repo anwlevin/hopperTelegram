@@ -24,3 +24,5 @@ post-1665.yml
 post-1666.yml
 post-1667.yml
 post-1668.yml
+post-1669.yml
+post-1670.yml
