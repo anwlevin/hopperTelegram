@@ -299,3 +299,6 @@ post-3038.yml
 post-3039.yml
 post-3040.yml
 post-3041.yml
+post-3042.yml
+post-3043.yml
+post-3044.yml
