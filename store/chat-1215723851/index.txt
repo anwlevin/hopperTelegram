@@ -33,3 +33,4 @@ post-1674.yml
 post-1675.yml
 post-1676.yml
 post-1677.yml
+post-1678.yml
