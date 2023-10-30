@@ -23,3 +23,4 @@ post-400.yml
 post-401.yml
 post-402.yml
 post-403.yml
+post-404.yml
