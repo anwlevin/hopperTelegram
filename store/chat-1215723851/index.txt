@@ -73,3 +73,4 @@ post-1714.yml
 post-1715.yml
 post-1716.yml
 post-1717.yml
+post-1718.yml
