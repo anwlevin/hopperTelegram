@@ -81,3 +81,4 @@ post-1722.yml
 post-1723.yml
 post-1724.yml
 post-1725.yml
+post-1726.yml
