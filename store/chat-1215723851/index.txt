@@ -130,3 +130,9 @@ post-1771.yml
 post-1772.yml
 post-1773.yml
 post-1774.yml
+post-1775.yml
+post-1776.yml
+post-1777.yml
+post-1778.yml
+post-1779.yml
+post-1780.yml
