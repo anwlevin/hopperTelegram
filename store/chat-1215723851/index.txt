@@ -181,3 +181,5 @@ post-1822.yml
 post-1823.yml
 post-1824.yml
 post-1825.yml
+post-1826.yml
+post-1827.yml
