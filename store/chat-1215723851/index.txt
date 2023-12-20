@@ -196,3 +196,6 @@ post-1837.yml
 post-1838.yml
 post-1839.yml
 post-1840.yml
+post-1841.yml
+post-1842.yml
+post-1843.yml
