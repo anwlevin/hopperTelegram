@@ -324,3 +324,6 @@ post-701.yml
 post-702.yml
 post-703.yml
 post-704.yml
+post-705.yml
+post-706.yml
+post-707.yml
