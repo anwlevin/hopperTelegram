@@ -237,3 +237,6 @@ post-1878.yml
 post-1879.yml
 post-1880.yml
 post-1881.yml
+post-1882.yml
+post-1883.yml
+post-1884.yml
