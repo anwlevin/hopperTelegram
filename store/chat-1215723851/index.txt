@@ -279,3 +279,6 @@ post-1921.yml
 post-1922.yml
 post-1923.yml
 post-1924.yml
+post-1925.yml
+post-1926.yml
+post-1927.yml
