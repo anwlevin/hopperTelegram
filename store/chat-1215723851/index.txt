@@ -290,3 +290,5 @@ post-1932.yml
 post-1933.yml
 post-1934.yml
 post-1935.yml
+post-1936.yml
+post-1937.yml
