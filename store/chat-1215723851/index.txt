@@ -296,3 +296,6 @@ post-1938.yml
 post-1939.yml
 post-1940.yml
 post-1941.yml
+post-1942.yml
+post-1943.yml
+post-1944.yml
