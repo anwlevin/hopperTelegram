@@ -324,3 +324,4 @@ post-1966.yml
 post-1967.yml
 post-1968.yml
 post-1969.yml
+post-1970.yml
