@@ -334,3 +334,6 @@ post-1976.yml
 post-1977.yml
 post-1978.yml
 post-1979.yml
+post-1980.yml
+post-1981.yml
+post-1982.yml
