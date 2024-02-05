@@ -378,3 +378,4 @@ post-2020.yml
 post-2021.yml
 post-2022.yml
 post-2023.yml
+post-2024.yml
