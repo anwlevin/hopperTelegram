@@ -386,3 +386,4 @@ post-2028.yml
 post-2029.yml
 post-2030.yml
 post-2031.yml
+post-2032.yml
