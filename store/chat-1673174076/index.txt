@@ -1038,3 +1038,6 @@ post-3777.yml
 post-3778.yml
 post-3779.yml
 post-3780.yml
+post-3781.yml
+post-3782.yml
+post-3783.yml
