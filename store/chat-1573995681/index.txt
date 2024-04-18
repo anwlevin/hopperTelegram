@@ -32,6 +32,12 @@ post-1030.yml
 post-1031.yml
 post-1032.yml
 post-1033.yml
+post-1034.yml
+post-1035.yml
+post-1036.yml
+post-1037.yml
+post-1038.yml
+post-1039.yml
 post-379.yml
 post-380.yml
 post-381.yml
