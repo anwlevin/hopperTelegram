@@ -39,6 +39,8 @@ post-1037.yml
 post-1038.yml
 post-1039.yml
 post-1040.yml
+post-1041.yml
+post-1042.yml
 post-379.yml
 post-380.yml
 post-381.yml
