@@ -58,6 +58,11 @@ post-1056.yml
 post-1057.yml
 post-1058.yml
 post-1059.yml
+post-1060.yml
+post-1061.yml
+post-1062.yml
+post-1063.yml
+post-1064.yml
 post-379.yml
 post-380.yml
 post-381.yml
