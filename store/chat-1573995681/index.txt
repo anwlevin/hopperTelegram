@@ -64,6 +64,7 @@ post-1062.yml
 post-1063.yml
 post-1064.yml
 post-1065.yml
+post-1066.yml
 post-379.yml
 post-380.yml
 post-381.yml
