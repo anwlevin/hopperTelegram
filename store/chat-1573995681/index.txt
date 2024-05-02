@@ -73,6 +73,8 @@ post-1071.yml
 post-1072.yml
 post-1073.yml
 post-1074.yml
+post-1075.yml
+post-1076.yml
 post-379.yml
 post-380.yml
 post-381.yml
