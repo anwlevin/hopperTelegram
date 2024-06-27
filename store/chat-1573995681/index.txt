@@ -152,6 +152,7 @@ post-1150.yml
 post-1151.yml
 post-1152.yml
 post-1153.yml
+post-1154.yml
 post-379.yml
 post-380.yml
 post-381.yml
