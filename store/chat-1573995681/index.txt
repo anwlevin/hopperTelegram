@@ -257,6 +257,8 @@ post-1255.yml
 post-1256.yml
 post-1257.yml
 post-1258.yml
+post-1259.yml
+post-1260.yml
 post-379.yml
 post-380.yml
 post-381.yml
