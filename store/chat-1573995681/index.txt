@@ -263,6 +263,13 @@ post-1261.yml
 post-1262.yml
 post-1263.yml
 post-1264.yml
+post-1265.yml
+post-1266.yml
+post-1267.yml
+post-1268.yml
+post-1269.yml
+post-1270.yml
+post-1271.yml
 post-379.yml
 post-380.yml
 post-381.yml
