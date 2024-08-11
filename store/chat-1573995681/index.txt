@@ -305,6 +305,10 @@ post-1303.yml
 post-1304.yml
 post-1305.yml
 post-1306.yml
+post-1307.yml
+post-1308.yml
+post-1309.yml
+post-1310.yml
 post-379.yml
 post-380.yml
 post-381.yml
