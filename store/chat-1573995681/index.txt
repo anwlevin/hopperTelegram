@@ -390,6 +390,7 @@ post-1388.yml
 post-1389.yml
 post-1390.yml
 post-1391.yml
+post-1392.yml
 post-379.yml
 post-380.yml
 post-381.yml
