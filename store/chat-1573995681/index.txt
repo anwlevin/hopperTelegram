@@ -473,6 +473,9 @@ post-1474.yml
 post-1475.yml
 post-1476.yml
 post-1477.yml
+post-1478.yml
+post-1479.yml
+post-1480.yml
 post-379.yml
 post-380.yml
 post-381.yml
