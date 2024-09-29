@@ -501,6 +501,9 @@ post-1502.yml
 post-1503.yml
 post-1504.yml
 post-1505.yml
+post-1506.yml
+post-1507.yml
+post-1508.yml
 post-379.yml
 post-380.yml
 post-381.yml
