@@ -573,6 +573,9 @@ post-1574.yml
 post-1575.yml
 post-1576.yml
 post-1577.yml
+post-1578.yml
+post-1579.yml
+post-1580.yml
 post-379.yml
 post-380.yml
 post-381.yml
