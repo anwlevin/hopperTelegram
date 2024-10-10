@@ -660,6 +660,9 @@ post-1661.yml
 post-1662.yml
 post-1663.yml
 post-1664.yml
+post-1665.yml
+post-1666.yml
+post-1667.yml
 post-379.yml
 post-380.yml
 post-381.yml
