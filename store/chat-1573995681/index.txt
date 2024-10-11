@@ -674,6 +674,9 @@ post-1675.yml
 post-1676.yml
 post-1677.yml
 post-1678.yml
+post-1679.yml
+post-1680.yml
+post-1681.yml
 post-379.yml
 post-380.yml
 post-381.yml
