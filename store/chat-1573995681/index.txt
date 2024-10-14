@@ -701,6 +701,7 @@ post-1702.yml
 post-1703.yml
 post-1704.yml
 post-1705.yml
+post-1706.yml
 post-379.yml
 post-380.yml
 post-381.yml
