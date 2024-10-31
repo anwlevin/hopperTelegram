@@ -873,6 +873,12 @@ post-1875.yml
 post-1876.yml
 post-1877.yml
 post-1878.yml
+post-1879.yml
+post-1880.yml
+post-1881.yml
+post-1882.yml
+post-1883.yml
+post-1884.yml
 post-379.yml
 post-380.yml
 post-381.yml
