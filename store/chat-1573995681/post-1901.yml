@@ -1,0 +1,370 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: !!python/object:telegram._files.audio.Audio
+    duration: 3553
+    file_name: Теренс_Тао_IQ_220_Математика_В_Эпоху_ИИ.m4a
+    mime_type: audio/mp4
+    performer: null
+    title: null
+    thumbnail: !!python/object:telegram._files.photosize.PhotoSize
+      width: 320
+      height: 180
+      file_id: AAMCAgADHQJd0UShAAIHbWcpilykEUKC4FyTfWFA7U3QeBzwAAK2VQACmt5QSQABjMJ5HeqsbgEAB20AAzYE
+      file_size: 16452
+      file_unique_id: AQADtlUAApreUEly
+      _id_attrs: !!python/tuple
+      - AQADtlUAApreUEly
+      _frozen: true
+      api_kwargs: {}
+    file_id: CQACAgIAAx0CXdFEoQACB21nKYpcpBFCguBck31hQO1N0Hgc8AACtlUAApreUEkAAYzCeR3qrG42BA
+    file_size: 22601200
+    file_unique_id: AgADtlUAApreUEk
+    _id_attrs: !!python/tuple
+    - AgADtlUAApreUEk
+    _frozen: true
+    api_kwargs:
+      thumb:
+        file_id: AAMCAgADHQJd0UShAAIHbWcpilykEUKC4FyTfWFA7U3QeBzwAAK2VQACmt5QSQABjMJ5HeqsbgEAB20AAzYE
+        file_unique_id: AQADtlUAApreUEly
+        file_size: 16452
+        width: 320
+        height: 180
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id003 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001573995681
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001573995681
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: null
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: null
+  group_chat_created: false
+  media_group_id: null
+  caption: "Теренс Тао (IQ 220): Математика В Эпоху ИИ\nyoutu.be/67Cw2UuOLqw [59:14]\n\
+    Бережливая автоматизация \n\n0:00 - Представление профессора Теренса Тао: от юного\
+    \ олимпиадника до звезды математики\n2:00 - Как ИИ меняет исследовательскую математику\n\
+    13:10 - История использования компьютеров в математике: от абака до современности\n\
+    25:00 - Революция в доказательствах: формализация математики с помощью компьютеров\n\
+    37:30 - Как машинное обучение помогает находить связи в теории узлов\n44:00 -\
+    \ GPT-4 и математические олимпиады: возможности и ограничения\n50:00 - Будущее\
+    \ математики: как ИИ изменит подход к исследованиям\n55:00 - Сессия вопросов и\
+    \ ответов с аудиторией"
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: !!python/object:telegram._message.Message
+    reply_markup: null
+    audio: null
+    contact: null
+    migrate_to_chat_id: null
+    forward_signature: null
+    chat: &id001 !!python/object:telegram._chat.Chat
+      bio: null
+      id: -1001573995681
+      type: !!python/object/apply:telegram.constants.ChatType
+      - channel
+      last_name: null
+      sticker_set_name: null
+      slow_mode_delay: null
+      location: null
+      first_name: null
+      permissions: null
+      invite_link: null
+      pinned_message: null
+      description: null
+      can_set_sticker_set: null
+      username: null
+      title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+      photo: null
+      linked_chat_id: null
+      message_auto_delete_time: null
+      has_protected_content: null
+      has_private_forwards: null
+      join_to_send_messages: null
+      join_by_request: null
+      has_restricted_voice_and_video_messages: null
+      is_forum: null
+      active_usernames: !!python/tuple []
+      emoji_status_custom_emoji_id: null
+      emoji_status_expiration_date: null
+      has_hidden_members: null
+      has_aggressive_anti_spam_enabled: null
+      _id_attrs: !!python/tuple
+      - -1001573995681
+      _frozen: true
+      api_kwargs: {}
+    successful_payment: null
+    game: null
+    text: https://youtu.be/67Cw2UuOLqw?si=HzjVCPfG5lGPvgg2
+    forward_sender_name: null
+    document: null
+    new_chat_title: null
+    forward_date: null
+    group_chat_created: false
+    media_group_id: null
+    caption: null
+    video: null
+    entities: !!python/tuple
+    - !!python/object:telegram._messageentity.MessageEntity
+      length: 48
+      url: null
+      user: null
+      type: !!python/object/apply:telegram.constants.MessageEntityType
+      - url
+      language: null
+      offset: 0
+      custom_emoji_id: null
+      _id_attrs: !!python/tuple
+      - !!python/object/apply:telegram.constants.MessageEntityType
+        - url
+      - 0
+      - 48
+      _frozen: true
+      api_kwargs: {}
+    via_bot: null
+    new_chat_members: !!python/tuple []
+    connected_website: null
+    animation: null
+    migrate_from_chat_id: null
+    forward_from: null
+    sticker: null
+    location: null
+    venue: null
+    edit_date: null
+    reply_to_message: null
+    passport_data: null
+    pinned_message: null
+    forward_from_chat: null
+    new_chat_photo: !!python/tuple []
+    message_id: 1899
+    delete_chat_photo: false
+    from_user: null
+    author_signature: null
+    proximity_alert_triggered: null
+    sender_chat: !!python/object:telegram._chat.Chat
+      bio: null
+      id: -1001573995681
+      type: !!python/object/apply:telegram.constants.ChatType
+      - channel
+      last_name: null
+      sticker_set_name: null
+      slow_mode_delay: null
+      location: null
+      first_name: null
+      permissions: null
+      invite_link: null
+      pinned_message: null
+      description: null
+      can_set_sticker_set: null
+      username: null
+      title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+      photo: null
+      linked_chat_id: null
+      message_auto_delete_time: null
+      has_protected_content: null
+      has_private_forwards: null
+      join_to_send_messages: null
+      join_by_request: null
+      has_restricted_voice_and_video_messages: null
+      is_forum: null
+      active_usernames: !!python/tuple []
+      emoji_status_custom_emoji_id: null
+      emoji_status_expiration_date: null
+      has_hidden_members: null
+      has_aggressive_anti_spam_enabled: null
+      _id_attrs: !!python/tuple
+      - -1001573995681
+      _frozen: true
+      api_kwargs: {}
+    dice: null
+    forward_from_message_id: null
+    caption_entities: !!python/tuple []
+    voice: null
+    date: 2024-11-05 02:53:59+00:00
+    supergroup_chat_created: false
+    poll: null
+    left_chat_member: null
+    photo: !!python/tuple []
+    channel_chat_created: false
+    invoice: null
+    video_note: null
+    _effective_attachment: &id002 !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+      state: !!python/tuple
+      - null
+      - value: null
+    message_auto_delete_timer_changed: null
+    video_chat_ended: null
+    video_chat_participants_invited: null
+    video_chat_started: null
+    video_chat_scheduled: null
+    is_automatic_forward: null
+    has_protected_content: null
+    web_app_data: null
+    is_topic_message: null
+    message_thread_id: null
+    forum_topic_created: null
+    forum_topic_closed: null
+    forum_topic_reopened: null
+    forum_topic_edited: null
+    general_forum_topic_hidden: null
+    general_forum_topic_unhidden: null
+    write_access_allowed: null
+    has_media_spoiler: null
+    user_shared: null
+    chat_shared: null
+    story: null
+    _id_attrs: !!python/tuple
+    - 1899
+    - *id001
+    _frozen: true
+    api_kwargs:
+      link_preview_options:
+        url: https://youtu.be/67Cw2UuOLqw?si=HzjVCPfG5lGPvgg2
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 1901
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001573995681
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001573995681
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 20
+    url: http://youtu.be/67Cw2UuOLqw
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - text_link
+    language: null
+    offset: 43
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - text_link
+    - 43
+    - 20
+    _frozen: true
+    api_kwargs: {}
+  voice: null
+  date: 2024-11-05 03:00:44+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple []
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: *id002
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 1901
+  - *id003
+  _frozen: true
+  api_kwargs: {}
+data:
+  text_markdown: ''
+  text_html: ''
+  photo: ''
