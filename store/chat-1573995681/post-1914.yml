@@ -1,0 +1,210 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: !!python/object:telegram._files.audio.Audio
+    duration: 4023
+    file_name: m4a
+    mime_type: audio/mpeg
+    performer: null
+    title: null
+    thumbnail: !!python/object:telegram._files.photosize.PhotoSize
+      width: 320
+      height: 180
+      file_id: AAMCAgADHQJd0UShAAIHemc3rumLGId2GXhpeYM6WZ3BuqL0AAIdWwACxsvBSa8J2LnsLYgzAQAHbQADNgQ
+      file_size: 19388
+      file_unique_id: AQADHVsAAsbLwUly
+      _id_attrs: !!python/tuple
+      - AQADHVsAAsbLwUly
+      _frozen: true
+      api_kwargs: {}
+    file_id: CQACAgIAAx0CXdFEoQACB3pnN67pixiHdhl4aXmDOlmdwbqi9AACHVsAAsbLwUmvCdi57C2IMzYE
+    file_size: 26787391
+    file_unique_id: AgADHVsAAsbLwUk
+    _id_attrs: !!python/tuple
+    - AgADHVsAAsbLwUk
+    _frozen: true
+    api_kwargs:
+      thumb:
+        file_id: AAMCAgADHQJd0UShAAIHemc3rumLGId2GXhpeYM6WZ3BuqL0AAIdWwACxsvBSa8J2LnsLYgzAQAHbQADNgQ
+        file_unique_id: AQADHVsAAsbLwUly
+        file_size: 19388
+        width: 320
+        height: 180
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id001 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001573995681
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001573995681
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: null
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: null
+  group_chat_created: false
+  media_group_id: null
+  caption: "НКВД готовилось конвоировать 30 тыс. пленных немцев в день/ Второй Фронт.\
+    \ Часть 21\nyoutu.be/xDOcnOPbrSg [1:07:03]\nMark Solonin \n\n1:22 - «Сталин готовил\
+    \ поражение своей армии ради получения чужой тушенки» ?\n4:18 - Закон о ленд-лизе\
+    \ назывался «Закон о содействии ОБОРОНЕ США»\n9:10 - Западные союзники были не\
+    \ в той ситуации, когда можно «перебирать харчами»\n12:50 - Четыре картинки, которые\
+    \ Объясняют Всё\n16:50 - Планируем Стратегическую Оборонительную операцию\n22:55\
+    \ - «подушка безопасности СССР» и правильный способ её использования\n24:45 -\
+    \ Рубежи подвижной обороны\n29:42 - Это придумал не я !\n30:46 - Доклад ЧВС Западного\
+    \ фронта от 19 июЛя\n33:34 - Чего опасались немцы?\n36:07 - В «западне выступов»\
+    \ были складированы горы военного имущества\n39:27 - «стенобитная машина 20-го\
+    \ века»\n42:38 - Одна «стенобитная машина» = 38 сорокопяткам\n45:39 - Что такое\
+    \ 234 тыс. выстрелов к 203-мм гаубице\n46:30 - Где они встретили начало войны?\n\
+    47:07 - И куда их утащила …\n…\n⚔️ [Text truncated to fit Telegram’s caption limit]"
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: null
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 1914
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001573995681
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001573995681
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 20
+    url: http://youtu.be/xDOcnOPbrSg
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - text_link
+    language: null
+    offset: 83
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - text_link
+    - 83
+    - 20
+    _frozen: true
+    api_kwargs: {}
+  voice: null
+  date: 2024-11-15 20:28:25+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple []
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+    state: !!python/tuple
+    - null
+    - value: null
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 1914
+  - *id001
+  _frozen: true
+  api_kwargs: {}
+data:
+  text_markdown: ''
+  text_html: ''
+  photo: ''
