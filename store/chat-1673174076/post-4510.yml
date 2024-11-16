@@ -1,0 +1,448 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: null
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id003 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: ☝️. В тексте среди прочего о том, что Александр 2 хорошо знал математику благодаря
+    Остроградскому
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: 2024-11-16 18:15:40+00:00
+  group_chat_created: false
+  media_group_id: null
+  caption: null
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: !!python/object:telegram._user.User
+    is_bot: false
+    can_read_all_group_messages: null
+    username: andrewlevins
+    first_name: Andrew
+    last_name: Levin
+    can_join_groups: null
+    supports_inline_queries: null
+    id: 4583603
+    language_code: en
+    is_premium: null
+    added_to_attachment_menu: null
+    _id_attrs: !!python/tuple
+    - 4583603
+    _frozen: true
+    api_kwargs: {}
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: !!python/object:telegram._message.Message
+    reply_markup: null
+    audio: null
+    contact: null
+    migrate_to_chat_id: null
+    forward_signature: null
+    chat: &id001 !!python/object:telegram._chat.Chat
+      bio: null
+      id: -1001673174076
+      type: !!python/object/apply:telegram.constants.ChatType
+      - channel
+      last_name: null
+      sticker_set_name: null
+      slow_mode_delay: null
+      location: null
+      first_name: null
+      permissions: null
+      invite_link: null
+      pinned_message: null
+      description: null
+      can_set_sticker_set: null
+      username: null
+      title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+      photo: null
+      linked_chat_id: null
+      message_auto_delete_time: null
+      has_protected_content: null
+      has_private_forwards: null
+      join_to_send_messages: null
+      join_by_request: null
+      has_restricted_voice_and_video_messages: null
+      is_forum: null
+      active_usernames: !!python/tuple []
+      emoji_status_custom_emoji_id: null
+      emoji_status_expiration_date: null
+      has_hidden_members: null
+      has_aggressive_anti_spam_enabled: null
+      _id_attrs: !!python/tuple
+      - -1001673174076
+      _frozen: true
+      api_kwargs: {}
+    successful_payment: null
+    game: null
+    text: 'Остроградский произвел неизгладимое впечатление и на своих августейших
+      учеников, рассказы о великом геометре в монаршей семье передавались из поколения
+      в поколение. Когда в марте 1901 г. президент Академии наук великий князь Константин
+      Константинович приехал в Полтаву, председатель Полтавского кружка любителей
+      физико-математических наук В.С. Мачуговский обратился к нему с предложением
+      отметить столетие со дня рождения М.В. Остроградского на его родине. Великий
+      князь сразу поддержал это предложение, заметив: "Да, знаменитый Остроградский
+      был учителем и моего отца". Михаил Васильевич также не забывал о своих воспитанниках,
+      курс геометрии для военно-учебных заведений он посвятил своему ученику — императору
+      Александру II.
+
+
+      Хорошие знания математики великих князей и цесаревича сыграли положительную
+      роль в становлении отечественной математической школы. Однако иногда случались
+      довольно забавные истории. Например, сын ученого Виктор вспоминал об одном случае,
+      имевшем место на показательном экзамене по интегральному исчислению в одном
+      из военных учебных заведений, за преподаванием математики в котором наблюдал
+      Остроградский. На экзамене присутствовал Александр II, военный министр, министр
+      народного просвещения, директора кадетских корпусов. В какой-то момент к доске
+      вызвали кадета, который не был готов к экзамену. Но юноша не растерялся, и,
+      к ужасу собравшихся, стал бойко писать на доске математические формулы и абсолютно
+      бестолково сыпать математическими терминами. Все, что он говорил, было сущим
+      вздором. К счастью, император практически не слышал ответа, поскольку его занял
+      разговором начальник высших учебных заведений генерал-адъютант Я.И. Ростовцев.
+      Остроградский был готов провалиться сквозь землю, он не прерывал юного наглеца,
+      чтобы не привлекать внимания государя. Малейшая реплика со стороны Михаила Васильевича,
+      и разговор сразу был бы прерван, поскольку император трепетно относился к своему
+      учителю. Благодаря Остроградскому, Александр II очень неплохо знал математику.
+      Если бы он прислушался к ответу, то немедленно бы принял меры по наведению порядка,
+      и последствия могли бы быть самыми плачевными. Все напряженно ждали финала,
+      и, наконец, кадет замолчал и стер с доски бредовые формулы. Александр II повернул
+      голову в его сторону: он слышал, что молодой человек бойко говорил, и Остроградский
+      не сделал ему ни одного замечания — значит все хорошо, и государь предложил
+      поставить ему высший балл. Счастливчик выпорхнул из аудитории.
+
+      Остроградский не мог досидеть до конца экзамена. Он тихо вышел в коридор и попросил
+      позвать только что экзаменовавшегося кадета. Увидев его, Остроградский сказал:
+      "Ну, душенька, вы будете, может быть, хорошим офицером, а на войне у вас будет
+      особенность, вас нельзя будет ранить в лоб, потому что он у вас медный".
+
+
+
+      из статьи Л.И. Брылевской "Миф об Остроградском: правда и вымысел"; из книги
+      И.Б.Погребысского и А.П.Юшкевича "Михаил Васильевич Остроградский. Педагогическое
+      наследие. Документы о жизни и деятельности"'
+    forward_sender_name: null
+    document: null
+    new_chat_title: null
+    forward_date: 2024-11-16 15:15:07+00:00
+    group_chat_created: false
+    media_group_id: null
+    caption: null
+    video: null
+    entities: !!python/tuple
+    - !!python/object:telegram._messageentity.MessageEntity
+      length: 150
+      url: null
+      user: null
+      type: !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+      language: null
+      offset: 2630
+      custom_emoji_id: null
+      _id_attrs: !!python/tuple
+      - !!python/object/apply:telegram.constants.MessageEntityType
+        - bold
+      - 2630
+      - 150
+      _frozen: true
+      api_kwargs: {}
+    - !!python/object:telegram._messageentity.MessageEntity
+      length: 202
+      url: null
+      user: null
+      type: !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+      language: null
+      offset: 2784
+      custom_emoji_id: null
+      _id_attrs: !!python/tuple
+      - !!python/object/apply:telegram.constants.MessageEntityType
+        - italic
+      - 2784
+      - 202
+      _frozen: true
+      api_kwargs: {}
+    via_bot: null
+    new_chat_members: !!python/tuple []
+    connected_website: null
+    animation: null
+    migrate_from_chat_id: null
+    forward_from: null
+    sticker: null
+    location: null
+    venue: null
+    edit_date: null
+    reply_to_message: null
+    passport_data: null
+    pinned_message: null
+    forward_from_chat: !!python/object:telegram._chat.Chat
+      bio: null
+      id: -1002039503200
+      type: !!python/object/apply:telegram.constants.ChatType
+      - channel
+      last_name: null
+      sticker_set_name: null
+      slow_mode_delay: null
+      location: null
+      first_name: null
+      permissions: null
+      invite_link: null
+      pinned_message: null
+      description: null
+      can_set_sticker_set: null
+      username: mathmemories
+      title: воспоминания математиков
+      photo: null
+      linked_chat_id: null
+      message_auto_delete_time: null
+      has_protected_content: null
+      has_private_forwards: null
+      join_to_send_messages: null
+      join_by_request: null
+      has_restricted_voice_and_video_messages: null
+      is_forum: null
+      active_usernames: !!python/tuple []
+      emoji_status_custom_emoji_id: null
+      emoji_status_expiration_date: null
+      has_hidden_members: null
+      has_aggressive_anti_spam_enabled: null
+      _id_attrs: !!python/tuple
+      - -1002039503200
+      _frozen: true
+      api_kwargs: {}
+    new_chat_photo: !!python/tuple []
+    message_id: 4509
+    delete_chat_photo: false
+    from_user: null
+    author_signature: null
+    proximity_alert_triggered: null
+    sender_chat: !!python/object:telegram._chat.Chat
+      bio: null
+      id: -1001673174076
+      type: !!python/object/apply:telegram.constants.ChatType
+      - channel
+      last_name: null
+      sticker_set_name: null
+      slow_mode_delay: null
+      location: null
+      first_name: null
+      permissions: null
+      invite_link: null
+      pinned_message: null
+      description: null
+      can_set_sticker_set: null
+      username: null
+      title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+      photo: null
+      linked_chat_id: null
+      message_auto_delete_time: null
+      has_protected_content: null
+      has_private_forwards: null
+      join_to_send_messages: null
+      join_by_request: null
+      has_restricted_voice_and_video_messages: null
+      is_forum: null
+      active_usernames: !!python/tuple []
+      emoji_status_custom_emoji_id: null
+      emoji_status_expiration_date: null
+      has_hidden_members: null
+      has_aggressive_anti_spam_enabled: null
+      _id_attrs: !!python/tuple
+      - -1001673174076
+      _frozen: true
+      api_kwargs: {}
+    dice: null
+    forward_from_message_id: 188
+    caption_entities: !!python/tuple []
+    voice: null
+    date: 2024-11-16 18:18:02+00:00
+    supergroup_chat_created: false
+    poll: null
+    left_chat_member: null
+    photo: !!python/tuple []
+    channel_chat_created: false
+    invoice: null
+    video_note: null
+    _effective_attachment: &id002 !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+      state: !!python/tuple
+      - null
+      - value: null
+    message_auto_delete_timer_changed: null
+    video_chat_ended: null
+    video_chat_participants_invited: null
+    video_chat_started: null
+    video_chat_scheduled: null
+    is_automatic_forward: null
+    has_protected_content: null
+    web_app_data: null
+    is_topic_message: null
+    message_thread_id: null
+    forum_topic_created: null
+    forum_topic_closed: null
+    forum_topic_reopened: null
+    forum_topic_edited: null
+    general_forum_topic_hidden: null
+    general_forum_topic_unhidden: null
+    write_access_allowed: null
+    has_media_spoiler: null
+    user_shared: null
+    chat_shared: null
+    story: null
+    _id_attrs: !!python/tuple
+    - 4509
+    - *id001
+    _frozen: true
+    api_kwargs:
+      forward_origin:
+        type: channel
+        chat:
+          id: -1002039503200
+          title: воспоминания математиков
+          username: mathmemories
+          type: channel
+        message_id: 188
+        date: 1731770107
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 4510
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple []
+  voice: null
+  date: 2024-11-16 18:18:02+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple []
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: *id002
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 4510
+  - *id003
+  _frozen: true
+  api_kwargs:
+    forward_origin:
+      type: user
+      sender_user:
+        id: 4583603
+        is_bot: false
+        first_name: Andrew
+        last_name: Levin
+        username: andrewlevins
+        language_code: en
+      date: 1731780940
+data:
+  text_markdown: !!python/tuple
+  - ☝️\. В тексте среди прочего о том, что Александр 2 хорошо знал математику благодаря
+    Остроградскому
+  text_html: ☝️. В тексте среди прочего о том, что Александр 2 хорошо знал математику
+    благодаря Остроградскому
+  photo: ''
