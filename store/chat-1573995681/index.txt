@@ -965,6 +965,9 @@ post-1967.yml
 post-1968.yml
 post-1969.yml
 post-1970.yml
+post-1971.yml
+post-1972.yml
+post-1973.yml
 post-379.yml
 post-380.yml
 post-381.yml
