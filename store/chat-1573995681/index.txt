@@ -994,6 +994,12 @@ post-2000.yml
 post-2001.yml
 post-2002.yml
 post-2003.yml
+post-2004.yml
+post-2005.yml
+post-2006.yml
+post-2007.yml
+post-2008.yml
+post-2009.yml
 post-379.yml
 post-380.yml
 post-381.yml
