@@ -1012,6 +1012,7 @@ post-2018.yml
 post-2019.yml
 post-2020.yml
 post-2021.yml
+post-2022.yml
 post-379.yml
 post-380.yml
 post-381.yml
