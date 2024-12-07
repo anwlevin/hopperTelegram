@@ -1064,6 +1064,9 @@ post-2070.yml
 post-2071.yml
 post-2072.yml
 post-2073.yml
+post-2074.yml
+post-2075.yml
+post-2076.yml
 post-379.yml
 post-380.yml
 post-381.yml
