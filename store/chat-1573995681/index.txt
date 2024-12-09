@@ -1067,6 +1067,10 @@ post-2073.yml
 post-2074.yml
 post-2075.yml
 post-2076.yml
+post-2077.yml
+post-2078.yml
+post-2079.yml
+post-2080.yml
 post-379.yml
 post-380.yml
 post-381.yml
