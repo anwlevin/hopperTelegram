@@ -1,0 +1,206 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: !!python/object:telegram._files.audio.Audio
+    duration: 2139
+    file_name: p2_of2_Павел_Флоренский_От_геометр_HbZugds6hAE_48k_p2_of2.m4a
+    mime_type: audio/mp4
+    performer: null
+    title: null
+    thumbnail: !!python/object:telegram._files.photosize.PhotoSize
+      width: 320
+      height: 180
+      file_id: AAMCAgADHQJd0UShAAIJ_2fh4lO3KNDLvYuOt7guNeKOCNJjAAKnewACJjMRSwiRaoIOSiXgAQAHbQADNgQ
+      file_size: 15380
+      file_unique_id: AQADp3sAAiYzEUty
+      _id_attrs: !!python/tuple
+      - AQADp3sAAiYzEUty
+      _frozen: true
+      api_kwargs: {}
+    file_id: CQACAgIAAx0CXdFEoQACCf9n4eJTtyjQy72Ljre4LjXijgjSYwACp3sAAiYzEUsIkWqCDkol4DYE
+    file_size: 13328165
+    file_unique_id: AgADp3sAAiYzEUs
+    _id_attrs: !!python/tuple
+    - AgADp3sAAiYzEUs
+    _frozen: true
+    api_kwargs:
+      thumb:
+        file_id: AAMCAgADHQJd0UShAAIJ_2fh4lO3KNDLvYuOt7guNeKOCNJjAAKnewACJjMRSwiRaoIOSiXgAQAHbQADNgQ
+        file_unique_id: AQADp3sAAiYzEUty
+        file_size: 15380
+        width: 320
+        height: 180
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id001 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001573995681
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001573995681
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: null
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: null
+  group_chat_created: false
+  media_group_id: null
+  caption: "[Part 2 of 2] Павел Флоренский. От геометрии мнимостей к топологии духа\
+    \ (часть 1)\nyoutu.be/HbZugds6hAE [35:40]\nКалининградская областная научная библиотека\
+    \ \n\n0:06 - История чисел\n2:37 - Иррациональные числа и их значение\n4:44 -\
+    \ Комплексные числа\n7:42 - Интерпретация мнимых чисел\n13:23 - Введение в зазеркалье\n\
+    14:39 - Комплексные числа и философские выводы\n15:37 - Иная сторона бытия\n18:10\
+    \ - Космология Данте\n20:15 - Модель листа Мебиуса\n23:06 - Сны и теология\n28:02\
+    \ - Лингвистика и мнимость\n30:12 - Время и память\n32:00 - Миссия человека и\
+    \ память\n32:57 - Воспоминания и спасение\n33:57 - Ключевые работы Флоренского\n\
+    34:56 - Дополнительные работы"
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: null
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 2559
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001573995681
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001573995681
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 20
+    url: http://youtu.be/HbZugds6hAE
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - text_link
+    language: null
+    offset: 82
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - text_link
+    - 82
+    - 20
+    _frozen: true
+    api_kwargs: {}
+  voice: null
+  date: 2025-03-24 22:53:07+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple []
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+    state: !!python/tuple
+    - null
+    - value: null
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 2559
+  - *id001
+  _frozen: true
+  api_kwargs: {}
+data:
+  text_markdown: ''
+  text_html: ''
+  photo: ''
