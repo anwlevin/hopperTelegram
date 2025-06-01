@@ -1,0 +1,209 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: !!python/object:telegram._files.audio.Audio
+    duration: 2069
+    file_name: p2_of3_Природа_богатства_почему_од_QTgI3H08Ewc_48k_p2_of3.m4a
+    mime_type: audio/mp4
+    performer: null
+    title: null
+    thumbnail: !!python/object:telegram._files.photosize.PhotoSize
+      width: 320
+      height: 240
+      file_id: AAMCAgADHQJd0UShAAIKsWg8I05mY51ngq5viwewrKeNMz5vAALMegACffPpSWqBLo-QUAcDAQAHbQADNgQ
+      file_size: 14799
+      file_unique_id: AQADzHoAAn3z6Uly
+      _id_attrs: !!python/tuple
+      - AQADzHoAAn3z6Uly
+      _frozen: true
+      api_kwargs: {}
+    file_id: CQACAgIAAx0CXdFEoQACCrFoPCNOZmOdZ4Kub4sHsKynjTM-bwACzHoAAn3z6UlqgS6PkFAHAzYE
+    file_size: 12920513
+    file_unique_id: AgADzHoAAn3z6Uk
+    _id_attrs: !!python/tuple
+    - AgADzHoAAn3z6Uk
+    _frozen: true
+    api_kwargs:
+      thumb:
+        file_id: AAMCAgADHQJd0UShAAIKsWg8I05mY51ngq5viwewrKeNMz5vAALMegACffPpSWqBLo-QUAcDAQAHbQADNgQ
+        file_unique_id: AQADzHoAAn3z6Uly
+        file_size: 14799
+        width: 320
+        height: 240
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id001 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001573995681
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001573995681
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: null
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: null
+  group_chat_created: false
+  media_group_id: null
+  caption: "[Part 2 of 3] Природа богатства: почему одни люди богатые, а другие нет\n\
+    youtu.be/QTgI3H08Ewc [34:30]\nПавел Усанов \n\n0:06 - Рыночные и гегемонические\
+    \ отношения\n2:46 - Плановая экономика и её недостатки\n5:25 - Инклюзивные и экстрактные\
+    \ институты\n8:20 - Богатые и бедные страны\n9:12 - Первоначальное состояние человечества\n\
+    10:15 - Великая хартия вольностей\n11:15 - Инклюзивность и права\n13:13 - Причины\
+    \ богатства и нищеты\n14:45 - Экономическая свобода и ВВП\n17:34 - Роль предпринимателя\n\
+    20:09 - Предпринимательство и его свойства\n20:58 - Различие между предпринимателями\
+    \ и преступниками\n21:54 - Бюрократия и законы\n22:57 - Гегемония и конкуренция\n\
+    24:51 - График Макклоски и уровень благосостояния\n27:13 - Влияние промышленной\
+    \ революции на технологии\n29:20 - Психологические черты сверхбогатых людей\n\
+    30:55 - Базар ответственность и её значение\n32:51 - Экстраверсия и открытость\
+    \ опыту"
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: null
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 2737
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001573995681
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🦉 Philosophical. Archivium - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001573995681
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 20
+    url: http://youtu.be/QTgI3H08Ewc
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - text_link
+    language: null
+    offset: 72
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - text_link
+    - 72
+    - 20
+    _frozen: true
+    api_kwargs: {}
+  voice: null
+  date: 2025-06-01 09:54:23+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple []
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+    state: !!python/tuple
+    - null
+    - value: null
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 2737
+  - *id001
+  _frozen: true
+  api_kwargs: {}
+data:
+  text_markdown: ''
+  text_html: ''
+  photo: ''
