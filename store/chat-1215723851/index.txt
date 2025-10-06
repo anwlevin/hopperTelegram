@@ -1048,3 +1048,4 @@ post-2702.yml
 post-2703.yml
 post-2704.yml
 post-2705.yml
+post-2706.yml
