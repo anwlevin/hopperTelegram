@@ -1,0 +1,216 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: null
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id001 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: '“Тем не менее, израильские реалисты испытывают противоречивые чувства. Ведь
+    Израиль стал домом для крупнейшей еврейской общины только потому, что численность
+    американских евреев сократилась в 1990-х годах с 5,5 до 5,2 миллиона человек.
+    Шесть процентов еврейского населения США, 300 000 человек, ушли за последнее десятилетие.
+    К 2050 году еврейское население США сократится еще на 50 процентов, до 2,5 миллиона
+    человек{570}. Кажется, что американские евреи скоро окажутся под угрозой исчезновения.
+
+    Почему так происходит? Таково коллективное решение самих евреев. От Бетти Фриден
+    до Глории Стейнем[153] в 1970-х и до Рут Бэйдер Гинзбург сегодня еврейские женщины
+    отстаивали право на аборт. Общество к ним прислушалось. Исследование, проведенное
+    в 2000 году Центром еврейских исследований в Балтиморе, показало, что 88 процентов
+    еврейского населения согласны: «Аборт должен быть общедоступной услугой»{571}.”
+
+
+    Excerpt From
+
+    Самоубийство сверхдержавы
+
+    Патрик Джозеф Бьюкенен
+
+    This material may be protected by copyright.'
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: null
+  group_chat_created: false
+  media_group_id: null
+  caption: null
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: null
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 5123
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple []
+  voice: null
+  date: 2025-11-08 19:08:14+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple []
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+    state: !!python/tuple
+    - null
+    - value: null
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 5123
+  - *id001
+  _frozen: true
+  api_kwargs: {}
+data:
+  text_markdown: !!python/tuple
+  - '“Тем не менее, израильские реалисты испытывают противоречивые чувства\. Ведь
+    Израиль стал домом для крупнейшей еврейской общины только потому, что численность
+    американских евреев сократилась в 1990\-х годах с 5,5 до 5,2 миллиона человек\.
+    Шесть процентов еврейского населения США, 300 000 человек, ушли за последнее десятилетие\.
+    К 2050 году еврейское население США сократится еще на 50 процентов, до 2,5 миллиона
+    человек\{570\}\. Кажется, что американские евреи скоро окажутся под угрозой исчезновения\.
+
+    Почему так происходит? Таково коллективное решение самих евреев\. От Бетти Фриден
+    до Глории Стейнем\[153\] в 1970\-х и до Рут Бэйдер Гинзбург сегодня еврейские
+    женщины отстаивали право на аборт\. Общество к ним прислушалось\. Исследование,
+    проведенное в 2000 году Центром еврейских исследований в Балтиморе, показало,
+    что 88 процентов еврейского населения согласны: «Аборт должен быть общедоступной
+    услугой»\{571\}\.”
+
+
+    Excerpt From
+
+    Самоубийство сверхдержавы
+
+    Патрик Джозеф Бьюкенен
+
+    This material may be protected by copyright\.'
+  text_html: '“Тем не менее, израильские реалисты испытывают противоречивые чувства.
+    Ведь Израиль стал домом для крупнейшей еврейской общины только потому, что численность
+    американских евреев сократилась в 1990-х годах с 5,5 до 5,2 миллиона человек.
+    Шесть процентов еврейского населения США, 300 000 человек, ушли за последнее десятилетие.
+    К 2050 году еврейское население США сократится еще на 50 процентов, до 2,5 миллиона
+    человек{570}. Кажется, что американские евреи скоро окажутся под угрозой исчезновения.
+
+    Почему так происходит? Таково коллективное решение самих евреев. От Бетти Фриден
+    до Глории Стейнем[153] в 1970-х и до Рут Бэйдер Гинзбург сегодня еврейские женщины
+    отстаивали право на аборт. Общество к ним прислушалось. Исследование, проведенное
+    в 2000 году Центром еврейских исследований в Балтиморе, показало, что 88 процентов
+    еврейского населения согласны: «Аборт должен быть общедоступной услугой»{571}.”
+
+
+    Excerpt From
+
+    Самоубийство сверхдержавы
+
+    Патрик Джозеф Бьюкенен
+
+    This material may be protected by copyright.'
+  photo: ''
