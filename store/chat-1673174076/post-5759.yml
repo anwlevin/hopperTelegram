@@ -1,0 +1,232 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: null
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id001 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: null
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: null
+  group_chat_created: false
+  media_group_id: null
+  caption: 'Яркой иллюстрацией советской манеры подгонять дипломатическую и разведывательную
+    информацию под требования господствующей идеологии может служить телеграмма советского
+    посла Новикова, направленная в сентябре 1946 г. министру иностранных дел В.М.
+    Мо-лотову. Разъясняя послевоенную внешнюю политику США, Новиков начинает свое
+    сообщение следующим предложением: «Внешняя политика США, отражающая империалистические
+    тенденции аме-риканского монополистического капитала, в послевоенный период характеризуется
+    стремлением к мировому господству». Далее он утверждает, что США рассматривают
+    Великобританию как «круп-нейшего потенциального соперника», но в то же время как
+    потен-циального союзника, что побудило США согласиться на временный раздел мира
+    между ними. Такие реакционеры, как обозреватель Уолтер Липпман, и «консервативные»
+    газеты, как «Нью-Йорк таймс», пишет Новиков, добиваются развязывания войны против
+    Советского
+
+    Союза. Kenneth M. Jensen, ed., Origins of the Cold War: The Novikov, Kennan, and
+    Roberts «Long Telegrams»'
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: null
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 5759
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple []
+  voice: null
+  date: 2026-01-02 16:25:57+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 67
+    height: 90
+    file_id: AgACAgIAAx0CY7qcPAACFn9pV_GVdtjyBp99hx-BUIzZryP9awAC_wtrGyr7wEpQn6C9ODSVkAEAAwIAA3MAAzgE
+    file_size: 1244
+    file_unique_id: AQAD_wtrGyr7wEp4
+    _id_attrs: !!python/tuple
+    - AQAD_wtrGyr7wEp4
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 240
+    height: 320
+    file_id: AgACAgIAAx0CY7qcPAACFn9pV_GVdtjyBp99hx-BUIzZryP9awAC_wtrGyr7wEpQn6C9ODSVkAEAAwIAA20AAzgE
+    file_size: 22030
+    file_unique_id: AQAD_wtrGyr7wEpy
+    _id_attrs: !!python/tuple
+    - AQAD_wtrGyr7wEpy
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 600
+    height: 800
+    file_id: AgACAgIAAx0CY7qcPAACFn9pV_GVdtjyBp99hx-BUIzZryP9awAC_wtrGyr7wEpQn6C9ODSVkAEAAwIAA3gAAzgE
+    file_size: 113856
+    file_unique_id: AQAD_wtrGyr7wEp9
+    _id_attrs: !!python/tuple
+    - AQAD_wtrGyr7wEp9
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 960
+    height: 1280
+    file_id: AgACAgIAAx0CY7qcPAACFn9pV_GVdtjyBp99hx-BUIzZryP9awAC_wtrGyr7wEpQn6C9ODSVkAEAAwIAA3kAAzgE
+    file_size: 253430
+    file_unique_id: AQAD_wtrGyr7wEp-
+    _id_attrs: !!python/tuple
+    - AQAD_wtrGyr7wEp-
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 1920
+    height: 2560
+    file_id: AgACAgIAAx0CY7qcPAACFn9pV_GVdtjyBp99hx-BUIzZryP9awAC_wtrGyr7wEpQn6C9ODSVkAEAAwIAA3cAAzgE
+    file_size: 478074
+    file_unique_id: AQAD_wtrGyr7wEp8
+    _id_attrs: !!python/tuple
+    - AQAD_wtrGyr7wEp8
+    _frozen: true
+    api_kwargs: {}
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+    state: !!python/tuple
+    - null
+    - value: null
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 5759
+  - *id001
+  _frozen: true
+  api_kwargs: {}
+data:
+  text_markdown: ''
+  text_html: 'Яркой иллюстрацией советской манеры подгонять дипломатическую и разведывательную
+    информацию под требования господствующей идеологии может служить телеграмма советского
+    посла Новикова, направленная в сентябре 1946 г. министру иностранных дел В.М.
+    Мо-лотову. Разъясняя послевоенную внешнюю политику США, Новиков начинает свое
+    сообщение следующим предложением: «Внешняя политика США, отражающая империалистические
+    тенденции аме-риканского монополистического капитала, в послевоенный период характеризуется
+    стремлением к мировому господству». Далее он утверждает, что США рассматривают
+    Великобританию как «круп-нейшего потенциального соперника», но в то же время как
+    потен-циального союзника, что побудило США согласиться на временный раздел мира
+    между ними. Такие реакционеры, как обозреватель Уолтер Липпман, и «консервативные»
+    газеты, как «Нью-Йорк таймс», пишет Новиков, добиваются развязывания войны против
+    Советского
+
+    Союза. Kenneth M. Jensen, ed., Origins of the Cold War: The Novikov, Kennan, and
+    Roberts «Long Telegrams»'
+  photo: post-5759-photo.jpg
