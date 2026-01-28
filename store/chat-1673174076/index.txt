@@ -3265,3 +3265,9 @@ post-6008.yml
 post-6009.yml
 post-6010.yml
 post-6011.yml
+post-6012.yml
+post-6013.yml
+post-6014.yml
+post-6015.yml
+post-6016.yml
+post-6017.yml
