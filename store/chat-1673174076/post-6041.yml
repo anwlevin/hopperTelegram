@@ -1,0 +1,733 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: null
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id001 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: '🪖 Tommy / Tommy Atkins — солдат
+
+    Обобщённое имя британского рядового
+
+    Использовалось в документах, инструкциях, учебниках
+
+    Примерно как «Иван» для солдата в русском
+
+    📌 До сих пор можно услышать иронично: the Tommies (особенно про WWI)
+
+
+    ⚓ Jack Tar — моряк
+
+    Jack — самое «универсальное» мужское имя
+
+    Tar — от смолы (tar), которой пропитывали канаты и одежду
+
+    📌 Моряк = «Джек в смоле»
+
+
+    👨‍🌾 John Bull — англичанин вообще
+
+    Не профессия, а национальный образ
+
+    Символ простого, упрямого, прямолинейного британца
+
+    📌 Аналог «дядя Сэм» в США
+
+
+    👩‍🍳 Betty — кухарка / домработница (устар.)
+
+    Типичное женское имя XVIII–XIX вв.
+
+    Использовалось как собирательное
+
+
+    👨‍⚕️ Dr. John — врач (разг., стар.)
+
+    В старых текстах John = «какой-то типовой мужчина»
+
+    Сейчас почти не используется
+
+
+    🚽 John — туалет 😄
+
+    (да, тоже сюда)
+
+    to go to the john
+
+    Версий происхождения много, но идея та же: «обычное имя → обычная вещь»
+
+
+    👮 Bobby — полицейский
+
+    Уже разобрали: от Роберта Пиля
+
+
+    👨‍🔧 Jack — мастер / работяга
+
+    Jack-of-all-trades — человек «на все руки»
+
+    Отсюда:
+
+    jack — домкрат
+
+    jack — простой рабочий
+
+    jack tar — моряк
+
+
+    Почему это вообще работало
+
+    Потому что:
+
+    имена John, Jack, Tom, Bob были ультра-частотными
+
+    имя = «любой парень»
+
+    «любой парень» = типичный представитель профессии
+
+    То есть это не про конкретного человека, а про архетип.
+
+    Если хочешь, могу:
+
+    сравнить с русскими («Ванька», «Федя», «дядя Вася»)
+
+    или рассказать, какие из этих слов живы сегодня, а какие — чисто исторические'
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: null
+  group_chat_created: false
+  media_group_id: null
+  caption: null
+  video: null
+  entities: !!python/tuple
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 33
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 0
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 0
+    - 33
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 11
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 202
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 202
+    - 11
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 19
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 234
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 234
+    - 19
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 4
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 253
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 253
+    - 4
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 3
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 294
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 294
+    - 3
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 36
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 379
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 379
+    - 36
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 46
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 529
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 529
+    - 46
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 37
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 644
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 644
+    - 37
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 4
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 698
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 698
+    - 4
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 20
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 762
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 762
+    - 20
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 17
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 798
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 798
+    - 17
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 23
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 889
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 889
+    - 23
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 31
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 944
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 944
+    - 31
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 18
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 975
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 975
+    - 18
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 4
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 1026
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 1026
+    - 4
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 4
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 1041
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 1041
+    - 4
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 8
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 1064
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 1064
+    - 8
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 27
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 1082
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 1082
+    - 27
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 20
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 1127
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 1127
+    - 20
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 7
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 1289
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 1289
+    - 7
+    _frozen: true
+    api_kwargs: {}
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: null
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 6041
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple []
+  voice: null
+  date: 2026-01-30 19:10:38+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple []
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+    state: !!python/tuple
+    - null
+    - value: null
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 6041
+  - *id001
+  _frozen: true
+  api_kwargs: {}
+data:
+  text_markdown: !!python/tuple
+  - '*🪖 Tommy / Tommy Atkins — солдат
+
+    *Обобщённое имя британского рядового
+
+    Использовалось в документах, инструкциях, учебниках
+
+    Примерно как «Иван» для солдата в русском
+
+    📌 До сих пор можно услышать иронично: _the Tommies_ \(особенно про WWI\)
+
+
+    *⚓ Jack Tar — моряк
+
+    *_Jack_ — самое «универсальное» мужское имя
+
+    _Tar_ — от смолы \(tar\), которой пропитывали канаты и одежду
+
+    📌 Моряк \= «Джек в смоле»
+
+
+    *👨‍🌾 John Bull — англичанин вообще
+
+    *Не профессия, а национальный образ
+
+    Символ простого, упрямого, прямолинейного британца
+
+    📌 Аналог «дядя Сэм» в США
+
+
+    *👩‍🍳 Betty — кухарка / домработница \(устар\.\)
+
+    *Типичное женское имя XVIII–XIX вв\.
+
+    Использовалось как собирательное
+
+
+    *👨‍⚕️ Dr\. John — врач \(разг\., стар\.\)
+
+    *В старых текстах _John_ \= «какой\-то типовой мужчина»
+
+    Сейчас почти не используется
+
+
+    *🚽 John — туалет 😄
+
+    *\(да, тоже сюда\)
+
+    _to go to the john_
+
+    Версий происхождения много, но идея та же: «обычное имя → обычная вещь»
+
+
+    *👮 Bobby — полицейский
+
+    *Уже разобрали: от Роберта Пиля
+
+
+    *👨‍🔧 Jack — мастер / работяга
+
+    *_Jack\-of\-all\-trades_ — человек «на все руки»
+
+    Отсюда:
+
+    _jack_ — домкрат
+
+    _jack_ — простой рабочий
+
+    _jack tar_ — моряк
+
+
+    *Почему это вообще работало
+
+    *Потому что:
+
+    имена *John, Jack, Tom, Bob* были ультра\-частотными
+
+    имя \= «любой парень»
+
+    «любой парень» \= типичный представитель профессии
+
+    То есть это не про конкретного человека, а про *архетип*\.
+
+    Если хочешь, могу:
+
+    сравнить с русскими \(«Ванька», «Федя», «дядя Вася»\)
+
+    или рассказать, какие из этих слов живы сегодня, а какие — чисто исторические'
+  text_html: '<b>🪖 Tommy / Tommy Atkins — солдат
+
+    </b>Обобщённое имя британского рядового
+
+    Использовалось в документах, инструкциях, учебниках
+
+    Примерно как «Иван» для солдата в русском
+
+    📌 До сих пор можно услышать иронично: <i>the Tommies</i> (особенно про WWI)
+
+
+    <b>⚓ Jack Tar — моряк
+
+    </b><i>Jack</i> — самое «универсальное» мужское имя
+
+    <i>Tar</i> — от смолы (tar), которой пропитывали канаты и одежду
+
+    📌 Моряк = «Джек в смоле»
+
+
+    <b>👨‍🌾 John Bull — англичанин вообще
+
+    </b>Не профессия, а национальный образ
+
+    Символ простого, упрямого, прямолинейного британца
+
+    📌 Аналог «дядя Сэм» в США
+
+
+    <b>👩‍🍳 Betty — кухарка / домработница (устар.)
+
+    </b>Типичное женское имя XVIII–XIX вв.
+
+    Использовалось как собирательное
+
+
+    <b>👨‍⚕️ Dr. John — врач (разг., стар.)
+
+    </b>В старых текстах <i>John</i> = «какой-то типовой мужчина»
+
+    Сейчас почти не используется
+
+
+    <b>🚽 John — туалет 😄
+
+    </b>(да, тоже сюда)
+
+    <i>to go to the john</i>
+
+    Версий происхождения много, но идея та же: «обычное имя → обычная вещь»
+
+
+    <b>👮 Bobby — полицейский
+
+    </b>Уже разобрали: от Роберта Пиля
+
+
+    <b>👨‍🔧 Jack — мастер / работяга
+
+    </b><i>Jack-of-all-trades</i> — человек «на все руки»
+
+    Отсюда:
+
+    <i>jack</i> — домкрат
+
+    <i>jack</i> — простой рабочий
+
+    <i>jack tar</i> — моряк
+
+
+    <b>Почему это вообще работало
+
+    </b>Потому что:
+
+    имена <b>John, Jack, Tom, Bob</b> были ультра-частотными
+
+    имя = «любой парень»
+
+    «любой парень» = типичный представитель профессии
+
+    То есть это не про конкретного человека, а про <b>архетип</b>.
+
+    Если хочешь, могу:
+
+    сравнить с русскими («Ванька», «Федя», «дядя Вася»)
+
+    или рассказать, какие из этих слов живы сегодня, а какие — чисто исторические'
+  photo: ''
