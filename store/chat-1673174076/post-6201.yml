@@ -1,0 +1,197 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: null
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id001 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: 'Во всех кампаниях, которые Советский Союз вел против Запада ценой жизней
+    и счастья людей, Сартр принимал советскую сторону или критиковал СССР только на
+    языке, который повторял излюбленную им ложь. После Всемирного совета мира в Вене
+    в 1954 г. он по инициативе Советов совершил поездку в Москву, чтобы по возвращении
+    рассказать, что «в СССР тотальная свобода крити-ки». Это замечание, возможно,
+    будет легче понять, если мы вспомним, какое значение Сартр вкладывал в слово «тотальный».
+    Впоследствии он был потрясен советской интервенцией в Венгрию, настолько, что
+    переключился ва востваление коммунизма в остальных частях света: сначала на Кубе,
+    а затем (когда прозрел) в Китае. При этом единственная отличительная черта и достоинство
+    китайского коммунизма состояли в том, что до сих пор о нем было мало известно.
+    В конце жизни Сартр выступил в под-держку беженцев из коммунистического Вьетнама,
+    публично пожав руку Раймону Арону после многолетнего разрыва. И только тогда он,
+    похоже, отказался от борьбы.
+
+    Однако к тому времени его миссия уже была выполнена.'
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: null
+  group_chat_created: false
+  media_group_id: null
+  caption: null
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: null
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: null
+  new_chat_photo: !!python/tuple []
+  message_id: 6201
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001673174076
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🏛 Philosophical. Notes - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001673174076
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: null
+  caption_entities: !!python/tuple []
+  voice: null
+  date: 2026-02-10 16:21:05+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple []
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+    state: !!python/tuple
+    - null
+    - value: null
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 6201
+  - *id001
+  _frozen: true
+  api_kwargs: {}
+data:
+  text_markdown: !!python/tuple
+  - 'Во всех кампаниях, которые Советский Союз вел против Запада ценой жизней и счастья
+    людей, Сартр принимал советскую сторону или критиковал СССР только на языке, который
+    повторял излюбленную им ложь\. После Всемирного совета мира в Вене в 1954 г\.
+    он по инициативе Советов совершил поездку в Москву, чтобы по возвращении рассказать,
+    что «в СССР тотальная свобода крити\-ки»\. Это замечание, возможно, будет легче
+    понять, если мы вспомним, какое значение Сартр вкладывал в слово «тотальный»\.
+    Впоследствии он был потрясен советской интервенцией в Венгрию, настолько, что
+    переключился ва востваление коммунизма в остальных частях света: сначала на Кубе,
+    а затем \(когда прозрел\) в Китае\. При этом единственная отличительная черта
+    и достоинство китайского коммунизма состояли в том, что до сих пор о нем было
+    мало известно\. В конце жизни Сартр выступил в под\-держку беженцев из коммунистического
+    Вьетнама, публично пожав руку Раймону Арону после многолетнего разрыва\. И только
+    тогда он, похоже, отказался от борьбы\.
+
+    Однако к тому времени его миссия уже была выполнена\.'
+  text_html: 'Во всех кампаниях, которые Советский Союз вел против Запада ценой жизней
+    и счастья людей, Сартр принимал советскую сторону или критиковал СССР только на
+    языке, который повторял излюбленную им ложь. После Всемирного совета мира в Вене
+    в 1954 г. он по инициативе Советов совершил поездку в Москву, чтобы по возвращении
+    рассказать, что «в СССР тотальная свобода крити-ки». Это замечание, возможно,
+    будет легче понять, если мы вспомним, какое значение Сартр вкладывал в слово «тотальный».
+    Впоследствии он был потрясен советской интервенцией в Венгрию, настолько, что
+    переключился ва востваление коммунизма в остальных частях света: сначала на Кубе,
+    а затем (когда прозрел) в Китае. При этом единственная отличительная черта и достоинство
+    китайского коммунизма состояли в том, что до сих пор о нем было мало известно.
+    В конце жизни Сартр выступил в под-держку беженцев из коммунистического Вьетнама,
+    публично пожав руку Раймону Арону после многолетнего разрыва. И только тогда он,
+    похоже, отказался от борьбы.
+
+    Однако к тому времени его миссия уже была выполнена.'
+  photo: ''
