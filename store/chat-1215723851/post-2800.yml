@@ -1,0 +1,802 @@
+message: !!python/object:telegram._message.Message
+  reply_markup: null
+  audio: null
+  contact: null
+  migrate_to_chat_id: null
+  forward_signature: null
+  chat: &id001 !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001215723851
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🎥 Youtube Watch - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001215723851
+    _frozen: true
+    api_kwargs: {}
+  successful_payment: null
+  game: null
+  text: null
+  forward_sender_name: null
+  document: null
+  new_chat_title: null
+  forward_date: 2026-03-08 13:37:13+00:00
+  group_chat_created: false
+  media_group_id: '14183816538185370'
+  caption: '🌟🌟🌟 дорогие коллеги, у нас рекомендация: любимый лекторий «Симпосий» приглашает
+    на курс Марка Мефёд «Когда животные становятся политическими субъектами: политический
+    поворот в этике животных»
+
+
+    Исследования животных как междисциплинарная область сформировались в 1970-е годы
+    и объединили философию, социологию, историю, гуманитарные науки и биологию.
+
+    Их общий вопрос — как по-новому мыслить животных и отношения между человеком и
+    нечеловеческим.
+
+
+    В последние десятилетия в этом поле, прежде всего в этике животных, намечается
+    политический поворот — реакция на усталость от прежних моральных дискуссий и осознание
+    их теоретического тупика.
+
+
+    Фокус смещается от абстрактных аргументов к анализу политических взаимодействий
+    людей и животных: устойчивых практик, отношений, институтов и структур власти.
+
+
+    Задача этого поворота — понять, что именно в этих взаимодействиях проблематично
+    и какие реформы возможны не только на уровне теории, но и в реальной практике.
+
+    Прослушав курс, вы узнаете:
+
+    🔘ключевые идеи политического поворота в этике животных;
+
+    🔘как учитывать интересы животных на уровне ежедневных взаимодействиях с ними и
+    политических институтов;
+
+    🔘почему мы должны смотреть на животных как на политических акторов;
+
+    🔘какие формы ответственности возникают у людей в условиях неизбежной межвидовой
+    взаимозависимости.
+
+    Пять причин послушать курс:
+
+    🔘 вас интересует роль и место человека в мире;
+
+    🔘 вы хотите узнать, каким может быть мир через 10-20 лет;
+
+    🔘 вам интересны животные, и вы хотите больше понимать, что можно для них сделать;
+
+    🔘 вас интересует справедливая правовая система;
+
+    🔘 вы хотите осваивать новые области гуманитарного знания, знакомиться с незнакомыми
+    ранее именами и теориями
+
+
+
+    Старт 19 марта
+
+    12 встреч | Онлайн | 18+
+
+    Записи останутся у вас
+
+
+    🐀 Подробнее о курсе и регистрация — здесь 🐀'
+  video: null
+  entities: !!python/tuple []
+  via_bot: null
+  new_chat_members: !!python/tuple []
+  connected_website: null
+  animation: null
+  migrate_from_chat_id: null
+  forward_from: null
+  sticker: null
+  location: null
+  venue: null
+  edit_date: null
+  reply_to_message: null
+  passport_data: null
+  pinned_message: null
+  forward_from_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001924655576
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: тиндер для академиков* название скоро поменяем
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001924655576
+    _frozen: true
+    api_kwargs: {}
+  new_chat_photo: !!python/tuple []
+  message_id: 2800
+  delete_chat_photo: false
+  from_user: null
+  author_signature: null
+  proximity_alert_triggered: null
+  sender_chat: !!python/object:telegram._chat.Chat
+    bio: null
+    id: -1001215723851
+    type: !!python/object/apply:telegram.constants.ChatType
+    - channel
+    last_name: null
+    sticker_set_name: null
+    slow_mode_delay: null
+    location: null
+    first_name: null
+    permissions: null
+    invite_link: null
+    pinned_message: null
+    description: null
+    can_set_sticker_set: null
+    username: null
+    title: 🎥 Youtube Watch - Uuuuuuuuuu-u
+    photo: null
+    linked_chat_id: null
+    message_auto_delete_time: null
+    has_protected_content: null
+    has_private_forwards: null
+    join_to_send_messages: null
+    join_by_request: null
+    has_restricted_voice_and_video_messages: null
+    is_forum: null
+    active_usernames: !!python/tuple []
+    emoji_status_custom_emoji_id: null
+    emoji_status_expiration_date: null
+    has_hidden_members: null
+    has_aggressive_anti_spam_enabled: null
+    _id_attrs: !!python/tuple
+    - -1001215723851
+    _frozen: true
+    api_kwargs: {}
+  dice: null
+  forward_from_message_id: 5103
+  caption_entities: !!python/tuple
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 0
+    custom_emoji_id: '5206545057712211902'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 0
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 2
+    custom_emoji_id: '5206257449522201953'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 2
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 4
+    custom_emoji_id: '5206680323412231225'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 4
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 1
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 85
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 85
+    - 1
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 12
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 91
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 91
+    - 12
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 91
+    url: https://symposion.academy/animal-ethics
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - text_link
+    language: null
+    offset: 103
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - text_link
+    - 103
+    - 91
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 91
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 103
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 103
+    - 91
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 764
+    url: null
+    user: null
+    type: expandable_blockquote
+    language: null
+    offset: 196
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - expandable_blockquote
+    - 196
+    - 764
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 20
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 528
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 528
+    - 20
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 44
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 694
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 694
+    - 44
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 10
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - italic
+    language: null
+    offset: 834
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - italic
+    - 834
+    - 10
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 358
+    url: null
+    user: null
+    type: expandable_blockquote
+    language: null
+    offset: 961
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - expandable_blockquote
+    - 961
+    - 358
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 27
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 961
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 961
+    - 27
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 989
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 989
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1046
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1046
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1151
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1151
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1220
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1220
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 377
+    url: null
+    user: null
+    type: expandable_blockquote
+    language: null
+    offset: 1320
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - expandable_blockquote
+    - 1320
+    - 377
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 27
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 1320
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 1320
+    - 27
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1348
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1348
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1396
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1396
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1455
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1455
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1538
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1538
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1587
+    custom_emoji_id: '5415594563551111038'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1587
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1763
+    custom_emoji_id: '5256040196406780081'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1763
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 31
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - bold
+    language: null
+    offset: 1766
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - bold
+    - 1766
+    - 31
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 5
+    url: https://symposion.academy/animal-ethics
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - text_link
+    language: null
+    offset: 1800
+    custom_emoji_id: null
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - text_link
+    - 1800
+    - 5
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._messageentity.MessageEntity
+    length: 2
+    url: null
+    user: null
+    type: !!python/object/apply:telegram.constants.MessageEntityType
+    - custom_emoji
+    language: null
+    offset: 1806
+    custom_emoji_id: '5256040196406780081'
+    _id_attrs: !!python/tuple
+    - !!python/object/apply:telegram.constants.MessageEntityType
+      - custom_emoji
+    - 1806
+    - 2
+    _frozen: true
+    api_kwargs: {}
+  voice: null
+  date: 2026-03-08 13:37:47+00:00
+  supergroup_chat_created: false
+  poll: null
+  left_chat_member: null
+  photo: !!python/tuple
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 90
+    height: 90
+    file_id: AgACAgIAAx0CSHZ5SwACCvBprXurXr8tSBwJPUvWh2nmZCcjOQACVhxrG0DBcUl3j2-lUKgN8QEAAwIAA3MAAzoE
+    file_size: 1692
+    file_unique_id: AQADVhxrG0DBcUl4
+    _id_attrs: !!python/tuple
+    - AQADVhxrG0DBcUl4
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 320
+    height: 320
+    file_id: AgACAgIAAx0CSHZ5SwACCvBprXurXr8tSBwJPUvWh2nmZCcjOQACVhxrG0DBcUl3j2-lUKgN8QEAAwIAA20AAzoE
+    file_size: 23950
+    file_unique_id: AQADVhxrG0DBcUly
+    _id_attrs: !!python/tuple
+    - AQADVhxrG0DBcUly
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 1080
+    height: 1080
+    file_id: AgACAgIAAx0CSHZ5SwACCvBprXurXr8tSBwJPUvWh2nmZCcjOQACVhxrG0DBcUl3j2-lUKgN8QEAAwIAA3kAAzoE
+    file_size: 94434
+    file_unique_id: AQADVhxrG0DBcUl-
+    _id_attrs: !!python/tuple
+    - AQADVhxrG0DBcUl-
+    _frozen: true
+    api_kwargs: {}
+  - !!python/object:telegram._files.photosize.PhotoSize
+    width: 800
+    height: 800
+    file_id: AgACAgIAAx0CSHZ5SwACCvBprXurXr8tSBwJPUvWh2nmZCcjOQACVhxrG0DBcUl3j2-lUKgN8QEAAwIAA3gAAzoE
+    file_size: 94765
+    file_unique_id: AQADVhxrG0DBcUl9
+    _id_attrs: !!python/tuple
+    - AQADVhxrG0DBcUl9
+    _frozen: true
+    api_kwargs: {}
+  channel_chat_created: false
+  invoice: null
+  video_note: null
+  _effective_attachment: !!python/object/new:telegram._utils.defaultvalue.DefaultValue
+    state: !!python/tuple
+    - null
+    - value: null
+  message_auto_delete_timer_changed: null
+  video_chat_ended: null
+  video_chat_participants_invited: null
+  video_chat_started: null
+  video_chat_scheduled: null
+  is_automatic_forward: null
+  has_protected_content: null
+  web_app_data: null
+  is_topic_message: null
+  message_thread_id: null
+  forum_topic_created: null
+  forum_topic_closed: null
+  forum_topic_reopened: null
+  forum_topic_edited: null
+  general_forum_topic_hidden: null
+  general_forum_topic_unhidden: null
+  write_access_allowed: null
+  has_media_spoiler: null
+  user_shared: null
+  chat_shared: null
+  story: null
+  _id_attrs: !!python/tuple
+  - 2800
+  - *id001
+  _frozen: true
+  api_kwargs:
+    forward_origin:
+      type: channel
+      chat:
+        id: -1001924655576
+        title: тиндер для академиков* название скоро поменяем
+        type: channel
+      message_id: 5103
+      date: 1772977033
+data:
+  text_markdown: ''
+  text_html: '<tg-emoji emoji-id="5206545057712211902">🌟</tg-emoji><tg-emoji emoji-id="5206257449522201953">🌟</tg-emoji><tg-emoji
+    emoji-id="5206680323412231225">🌟</tg-emoji> дорогие коллеги, у нас рекомендация:
+    любимый лекторий «Симпосий» приглашает на<b> </b>курс <b>Марка Мефёд </b><a href="https://symposion.academy/animal-ethics"><b>«Когда
+    животные становятся политическими субъектами: политический поворот в этике животных»</b></a>
+
+
+    Исследования животных как междисциплинарная область сформировались в 1970-е годы
+    и объединили философию, социологию, историю, гуманитарные науки и биологию.
+
+    Их общий вопрос — как по-новому мыслить животных и отношения между человеком и
+    нечеловеческим.
+
+
+    В последние десятилетия в этом поле, прежде всего в этике животных, намечается
+    <b>политический поворот</b> — реакция на усталость от прежних моральных дискуссий
+    и осознание их теоретического тупика.
+
+
+    Фокус смещается от абстрактных аргументов к анализу <b>политических взаимодействий
+    людей и животных</b>: устойчивых практик, отношений, институтов и структур власти.
+
+
+    Задача этого поворота — понять, <i>что именно</i> в этих взаимодействиях проблематично
+    и какие реформы возможны не только на уровне теории, но и в реальной практике.
+
+    <b>Прослушав курс, вы узнаете:</b>
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji>ключевые идеи политического
+    поворота в этике животных;
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji>как учитывать интересы животных
+    на уровне ежедневных взаимодействиях с ними и политических институтов;
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji>почему мы должны смотреть
+    на животных как на политических акторов;
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji>какие формы ответственности
+    возникают у людей в условиях неизбежной межвидовой взаимозависимости.
+
+    <b>Пять причин послушать курс:</b>
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji> вас интересует роль и место
+    человека в мире;
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji> вы хотите узнать, каким
+    может быть мир через 10-20 лет;
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji> вам интересны животные,
+    и вы хотите больше понимать, что можно для них сделать;
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji> вас интересует справедливая
+    правовая система;
+
+    <tg-emoji emoji-id="5415594563551111038">🔘</tg-emoji> вы хотите осваивать новые
+    области гуманитарного знания, знакомиться с незнакомыми ранее именами и теориями
+
+
+
+    Старт 19 марта
+
+    12 встреч | Онлайн | 18+
+
+    Записи останутся у вас
+
+
+    <tg-emoji emoji-id="5256040196406780081">🐀</tg-emoji> <b>Подробнее о курсе и регистрация</b>
+    — <a href="https://symposion.academy/animal-ethics">здесь</a> <tg-emoji emoji-id="5256040196406780081">🐀</tg-emoji>'
+  photo: post-2800-photo.jpg
